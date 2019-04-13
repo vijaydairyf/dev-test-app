@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "deviceId": "354162051711182",
+    "id": {
+      "collectionCenter": "TCS",
+      "route": null,
+      "chillingCenter": "TCS",
+      "organization": "TIO1"
+    },
+    "date": {
+      "collectionDate": "2001-07-04T12:08:56.235-0700",
+      "startTime": "2001-07-04T12:08:56.235-0700",
+      "endTime": "2001-07-04T12:08:56.235-0700"
+    },
+    "lastConcludedShift": {
+      "date": "2001-07-04T12:08:56.235-0700",
+      "shift": "EVENING",
+      "numberOfShifts": 1
+    },
+    "shift": "EVENING"
+  },
+  "data": {
+    "farmerMilkCollections": [
+      {
+        "id": {
+          "aggregateFarmer": null,
+          "producer": "111",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "tankerMilkCollections": [
+      {
+        "tanker": {
+          "number": "Tanker1",
+          "routeNumber": "R1",
+          "supervisorCode": "S1"
+        },
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "compartmentNumbers": [
+          "1001",
+          "1002"
+        ],
+        "status": "ACCEPT",
+        "comments": "Tanker collections done",
+        "sequenceNumber": 1,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "rcvdTime": "2001-07-04T12:08:56.235-0700"
+      }
+    ],
+    "salesCollections": [
+      {
+        "salesId": "salesid1",
+        "salesTime": "2001-07-04T12:08:56.235-0700",
+        "mode": "Manual",
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "milkType": "COW",
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        },
+        "salesTransaction": {
+          "salesTransactionType": "COOPERATIVE",
+          "salesTransactionSubType": "NORMAL"
+        },
+        "status": "ACCEPT",
+        "sequenceNumber": 7
+      }
+    ],
+    "farmerSplitCollections": [
+      {
+        "aggregateFarmerId": null,
+        "parentSeqNum": 1,
+        "farmerSplitEntries": [
+          {
+            "quantityParams": {
+              "mode": "Manual",
+              "measuredTime": "2001-07-04T12:08:56.235-0700",
+              "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+              "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+              "weighingScale": {
+                "measuredValue": 12,
+                "measurementUnit": null,
+                "inLtr": 12,
+                "inKg": 12.32
+              }
+            },
+            "qualityParams": {
+              "mode": "Manual",
+              "milkQuality": null,
+              "milkStatusCode": 1,
+              "measuredTime": "2001-07-04T12:08:56.235-0700",
+              "milkAnalyzer": {
+                "metaData": {
+                  "serialNumber": "1",
+                  "maNumber": null,
+                  "maMake": null,
+                  "calibration": null,
+                  "maData": null
+                },
+                "reading": {
+                  "com": null,
+                  "lactose": 0,
+                  "fat": 2,
+                  "density": 0,
+                  "clr": 16.9,
+                  "awm": 0,
+                  "freezingPoint": 0,
+                  "pH": 0,
+                  "protein": 0,
+                  "alcohol": 0,
+                  "salt": 0,
+                  "snf": 5,
+                  "temperature": {
+                    "value": 84,
+                    "unit": "F"
+                  }
+                }
+              }
+            },
+            "rateParams": {
+              "unit": null,
+              "mode": "Auto",
+              "rateChartName": "0 - 10 RATECHART1",
+              "isRateCalculated": true,
+              "rate": 23.9,
+              "incentive": 0,
+              "incentiveRate": 0,
+              "bonus": 0,
+              "amountToBePaid": 286.8
+            },
+            "producerId": "111",
+            "collectionTime": "2001-07-04T12:08:56.235-0700",
+            "sequenceNumber": 3,
+            "milkType": "COW",
+            "status": "Accept",
+            "mode": "Manual",
+            "numberOfCans": 0,
+            "userId": "SMARTOPERATOR",
+            "sampleNumber": 0
+          }
+        ]
+      }
+    ],
+    "extraParametersDetails": [
+      {
+        "extraParametersData": "{\"microbialTestForEColi\":\"NT\",\"alcoholStability\":\"Positive\",\"antibiotic\":\"Positive\",\"microbialTestForSalmonella\":\"Negative\"}",
+        "farmerId": "0001",
+        "updatedTime": "2001-07-04T12:08:56.235-0700",
+        "sequenceNumber": 6,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "milkType": "COW",
+        "refSequenceNumber": 1
+      }
+    ],
+    "collectionCenterMilkCollections": [
+      {
+        "id": {
+          "agent": "0001",
+          "producer": "0001",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "testRecords": [
+      {
+        "producerId": "0001",
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "status": "Accept",
+        "sequenceNumber": 1,
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "updateFarmerMilkCollections": [
+      {
+        "id": {
+          "aggregateFarmer": null,
+          "producer": "111",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "recordType": "NEW",
+        "updatedTime": "2001-07-04T12:08:56.235-0700",
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "updateCollectionCenterMilkCollections": [
+      {
+        "id": {
+          "agent": "0001",
+          "producer": "0001",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "recordType": "NEW",
+        "updatedTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "incompleteFarmerCollections": [
+      {
+        "id": {
+          "aggregateFarmer": null,
+          "producer": "111",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "incompleteCenterCollections": [
+      {
+        "id": {
+          "agent": "0001",
+          "producer": "0001",
+          "user": "SMARTOPERATOR"
+        },
+        "collectionRoute": "NA",
+        "milkType": "COW",
+        "mode": "Manual",
+        "status": "Accept",
+        "recordStatus": null,
+        "collectionTime": "2001-07-04T12:08:56.235-0700",
+        "numberOfCans": 1,
+        "sampleNumber": 0,
+        "sequenceNumber": 7,
+        "quantityParams": {
+          "mode": "Manual",
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "tippingEndTime": "2001-07-04T12:08:56.235-0700",
+          "tippingStartTime": "2001-07-04T12:08:56.235-0700",
+          "weighingScale": {
+            "measuredValue": 12,
+            "measurementUnit": null,
+            "inLtr": 12,
+            "inKg": 12.32
+          }
+        },
+        "qualityParams": {
+          "mode": "Manual",
+          "milkQuality": null,
+          "milkStatusCode": 1,
+          "measuredTime": "2001-07-04T12:08:56.235-0700",
+          "milkAnalyzer": {
+            "metaData": {
+              "serialNumber": "1",
+              "maNumber": null,
+              "maMake": null,
+              "calibration": null,
+              "maData": null
+            },
+            "reading": {
+              "com": null,
+              "lactose": 0,
+              "fat": 2,
+              "density": 0,
+              "clr": 16.9,
+              "awm": 0,
+              "freezingPoint": 0,
+              "pH": 0,
+              "protein": 0,
+              "alcohol": 0,
+              "salt": 0,
+              "snf": 5,
+              "temperature": {
+                "value": 84,
+                "unit": "F"
+              }
+            }
+          }
+        },
+        "rateParams": {
+          "unit": null,
+          "mode": "Auto",
+          "rateChartName": "0 - 10 RATECHART1",
+          "isRateCalculated": true,
+          "rate": 23.9,
+          "incentive": 0,
+          "incentiveRate": 0,
+          "bonus": 0,
+          "amountToBePaid": 286.8
+        }
+      }
+    ],
+    "routeCollections": [
+      {
+        "routeId": "Test1",
+        "securityTime": "2001-07-04T12:08:56.235-0700",
+        "recoveryAmount": 1000,
+        "material": "MaterialName1",
+        "can": {
+          "in": 2,
+          "out": 2
+        },
+        "sequenceNumber": 1,
+        "remarks": "remark1"
+      }
+    ]
+  }
+}

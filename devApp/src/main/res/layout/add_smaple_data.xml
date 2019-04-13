@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Sample Info"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/separator"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/mandatory"
+                        android:drawablePadding="3dp"
+                        android:padding="@dimen/table_row_padding"
+                        android:text="  Society ID "
+                        android:textColor="@color/black"
+                        app:typeface="condensed" />
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etSocietyId"
+                        style="@style/EditTextStyle"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:inputType="textCapCharacters"
+                        android:singleLine="true"
+                        app:typeface="condensed" />
+                </TableRow>
+                <!-- Test rateReferenceId -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/mandatory"
+                        android:drawablePadding="3dp"
+                        android:padding="@dimen/table_row_padding"
+                        android:text="  Test Name "
+                        android:textColor="@color/black"
+                        app:typeface="condensed" />
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etTestName"
+                        style="@style/EditTextStyle"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        app:typeface="condensed" />
+                </TableRow>
+
+                <!-- Test Id -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/mandatory"
+                        android:drawablePadding="3dp"
+                        android:padding="@dimen/table_row_padding"
+                        android:text="  Test ID "
+                        android:textColor="@color/black"
+                        app:typeface="condensed" />
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etTestId"
+                        style="@style/EditTextStyle"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        app:typeface="condensed" />
+                </TableRow>
+
+                <!-- Barcode Id -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawablePadding="3dp"
+                        android:padding="@dimen/table_row_padding"
+                        android:text="  Barcode "
+                        android:textColor="@color/black"
+                        app:typeface="condensed" />
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etTestBarCode"
+                        style="@style/EditTextStyle"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:inputType="textCapCharacters"
+                        android:singleLine="true"
+                        app:typeface="condensed" />
+                </TableRow>
+
+                <!-- For sales sample-->
+
+                <!-- Barcode Id -->
+
+                <TableRow
+                    android:id="@+id/trSalesSample"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvSalesSample"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/salesSample"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkSalesSample"
+                        style="@style/CheckBoxStyle"
+                        android:layout_below="@+id/tvWeighCheck"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:checked="false"></CheckBox>
+                </TableRow>
+
+            </TableLayout>
+
+            <!-- Check for multiple data -->
+
+
+            <!-- Milk analyzer -->
+
+            <RelativeLayout
+                android:id="@+id/rlMilkAnayzer"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_marginTop="15dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectMilk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mandatory_check"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lncheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlMilkAnayzer"
+                android:layout_marginTop="30dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rlWeighCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvWeighCheck"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/Weigh"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/CheckIsWeigh"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvWeighCheck"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlMilkanalyser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvMAcheck"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/milk_analyser"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkIsMA"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvMAcheck"
+                        android:checked="true"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:background="#BDBDBD"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+    </LinearLayout>
+
+</RelativeLayout>

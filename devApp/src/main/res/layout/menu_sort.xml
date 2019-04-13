@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vanilla_cream"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlId"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <Button
+
+            android:id="@+id/tvSortId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+            android:drawablePadding="30dp"
+            android:text="Id"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <Button
+            android:id="@+id/tvSortTime"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+            android:drawablePadding="30dp"
+            android:text="Time"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <Button
+            android:id="@+id/tvSortQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+            android:drawablePadding="30dp"
+            android:text="Quantity"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <Button
+            android:id="@+id/tvSortAmount"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+            android:drawablePadding="30dp"
+            android:text="Amount"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <Button
+            android:id="@+id/tvSortRate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+            android:drawablePadding="30dp"
+            android:text="Rate"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

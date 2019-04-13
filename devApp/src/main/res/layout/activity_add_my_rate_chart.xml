@@ -1,0 +1,466 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Rate Chart"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />-->
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector_menu"
+            android:drawableLeft="@drawable/rupee"
+            android:drawableRight="@drawable/add_new"
+            android:text="Add New" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="Rate Chart Name"
+                    android:inputType="text"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btncow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/cow_un"
+                    android:onClick="gotoButtonChange"
+                    android:text="  "
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnselcow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/cow_selected"
+                    android:onClick="gotoButtonChange"
+                    android:text="  " />
+
+                <Button
+                    android:id="@+id/btnbuf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/buf_un"
+                    android:onClick="gotoButtonChange"
+                    android:text="  " />
+
+                <Button
+                    android:id="@+id/btnselbuf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/buf_sel_new"
+                    android:onClick="gotoButtonChange"
+                    android:text="  "
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnmix"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/mix_un"
+                    android:onClick="gotoButtonChange"
+                    android:text="  " />
+
+                <Button
+                    android:id="@+id/btnselmix"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_selector_miltype"
+                    android:drawableLeft="@drawable/mix_sel_new"
+                    android:onClick="gotoButtonChange"
+                    android:text="  "
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/lightblue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/kgfatrate"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="Kg Fat Rate"
+                    android:inputType="numberDecimal"
+                    android:maxLength="7"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+
+                <EditText
+                    android:id="@+id/sartfatrange"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="Starting FAT"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+
+                <EditText
+                    android:id="@+id/endfatrange"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="End FAT"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view3"
+            android:layout_marginTop="10dp"
+            android:background="@color/lightblue"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/kgsnfrate"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="Kg SNF Rate"
+                    android:inputType="numberDecimal"
+                    android:maxLength="7"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+
+                <EditText
+                    android:id="@+id/sartsnfrange"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="Starting SNF"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+
+                <EditText
+                    android:id="@+id/endsnfrange"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="End SNF"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--   <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:id="@+id/view4"
+               android:layout_marginTop="10dp"
+               android:background="@color/lightblue"
+               android:layout_alignParentEnd="false"
+               android:layout_alignParentBottom="true" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+
+                <EditText
+                    android:id="@+id/sshift"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="S Shift"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:id="@+id/startDate"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext_circle"
+                android:focusable="false"
+                android:hint="Start Date"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/sDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/btn_selector_miltype"
+                android:drawableLeft="@drawable/start_date"
+                android:onClick="gotoSDate"
+                android:text="  " />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp">
+
+                <EditText
+                    android:id="@+id/eshift"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/custom_edittext_circle"
+                    android:hint="E Shift"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:paddingStart="30dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:id="@+id/endDate"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext_circle"
+                android:focusable="false"
+                android:hint="End Date"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/eDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/btn_selector_miltype"
+                android:drawableLeft="@drawable/end_date"
+                android:onClick="gotoEDate"
+                android:text="  " />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+
+        <!--<Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Delete"
+            android:textColor="#ffffff" />-->
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:onClick="gotoSubmit"
+            android:padding="5dp"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/lightblue" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/lightblue" />
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/printMBR"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Member bill register " />
+
+    <Button
+        android:id="@+id/printMBS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Member's bill Summary " />
+
+    <Button
+        android:id="@+id/printShift"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Shift report " />
+
+    <Button
+        android:id="@+id/printPeriodic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Periodic report" />
+
+    <Button
+        android:id="@+id/printExisting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Print " />
+
+
+</LinearLayout>

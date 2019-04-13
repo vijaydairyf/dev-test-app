@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">devApp</string>
+    <string name="copyright"> &#169; My App from 2014</string>
+    <string name="app_title">Devices</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="all_device_header">devApp</string>
+    <string name="reboot">Restart</string>
+    <string name="device_prompt">Choose a device</string>
+    <string name="increase_prompt">Increase factor</string>
+    <string name="farmer_prompt">Choose farmer</string>
+    <string name="hatsunlink"><u>http://www.hatsun.com/</u></string>
+    <string name="select_milkanalyzer_Sec">Select Second Milk Analyzer</string>
+    <string name="milk_prompt">Cattle type</string>
+    <string name="rateChart_prompt">Select Rate Chart</string>
+    <string name="sending_mail">Sending mail.....</string>
+    <string name="delete">Delete</string>
+    <string name="sample_test">Special Cards</string>
+    <string name="device_info">Device Info</string>
+    <string name="configure_devie">Device Details</string>
+    <string name="user_prompt">User role</string>
+    <string name="society_id">Society Id</string>
+    <string name="farmer_id">Id</string>
+    <string name="remember_me">Remember me</string>
+    <string name="show_pass">Show password</string>
+    <string name="enable_sw_keyboard">Enable Soft Keyboard</string>
+    <string name="unregistered_user">Unregistered user</string>
+    <string name="weight_note">Weight the milk here!!</string>
+    <string name="persnf">Increase rate per snf</string>
+    <string name="perfat">Increase rate per fat</string>
+    <string name="perclr">Increase rate per clr</string>
+    <string name="dailyshift">Shift Report</string>
+    <string name="dispatchReport">Dispatch Report</string>
+    <string name="centershift">Center shift Report</string>
+
+    <string name="totalPeriodic">Milk bill summary</string>
+    <string name="generate">Generate</string>
+    <string name="memberbill">Member bill register</string>
+    <string name="genbillreg">Generate bill register</string>
+    <string name="genbillsumm">Generate bill summary</string>
+    <string name="accountSummary">Account summary</string>
+    <string name="memberbillSummary">Member bill summary</string>
+    <string name="milkoTesterSec">MILKOTESTER 2</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="contact_admin">Contact admin</string>
+    <string name="usb_devices">Devices</string>
+    <string name="memberlist">All farmers</string>
+    <string name="display">Display</string>
+    <string name="check_connectivity">Check connectivity and try again.</string>
+    <string name="chooser_title">Choose file</string>
+    <string name="stellappslink"><u>http://www.stellapps.com/</u></string>
+    <string name="morning_session">Morning end session</string>
+    <string name="evening_session">Evening end session</string>
+    <string name="morning_start">Morning start session</string>
+    <string name="valid_from">Valid From</string>
+    <string name="valid_to">Valid To</string>
+    <string name="name_of_ratechart">Name of Ratechart</string>
+    <string name="evening_start">Evening start session</string>
+    <string name="min_fat">Min Fat</string>
+    <string name="min_snf">Min Snf</string>
+    <string name="min_clr">Min Clr</string>
+    <string name="max_fat">Max Fat</string>
+    <string name="max_snf">Max Snf</string>
+    <string name="max_clr">Max Clr</string>
+    <string name="all_farmers">Farmers</string>
+    <string name="all_users">Users</string>
+    <string name="rejection_Summ">Rejection Summary</string>
+    <string name="message_limit">Enable SMS</string>
+    <string name="SMS_Limit">Set SMS limit per day</string>
+    <string name="send_mails">Send mails</string>
+    <string name="ratechart_import_access">Ratechart import access</string>
+    <string name="ratechart_import_access_operator">Import access to operator</string>
+    <string name="allow_simlock">Allow simlock</string>
+    <string name="manual_header">Allow manual entry for collection</string>
+    <string name="ma_manual">MA manual</string>
+    <string name="ws_manual">WS manual</string>
+
+    <string name="clr_calculation">CLR Calculation</string>
+    <string name="rate_calculation">Rate Calculation</string>
+    <string name="ratechart_param">Rate Chart Parameters</string>
+    <string name="select_milkanalyzer">Select Milk Analyzer</string>
+    <string name="select_printer">Select Printer</string>
+    <string name="select_rdu">Select RDU</string>
+    <string name="select_display">Select Display</string>
+    <string name="select_weighing_Scale">Select Weighing scale</string>
+    <string name="select_weighing">Select Round-off</string>
+    <string name="select_gateWay">Select Gateway</string>
+    <string name="change_milktype">Change Milk Type</string>
+    <string name="select_usbtype">Select USB Type</string>
+    <string name="select_roundOff">Select Round-off</string>
+    <string name="createAndEditRatechart">Create and Edit Rate chart</string>
+    <string name="createAndEdit">Create and Edit</string>
+    <string name="change_milktype_Buff">* Default 0 means not applicable. Enter fat limit value. Milk with fat value greater or equal to this is consider as Buffalo milk. This is applicable when a common rate chart is used for cow and buffalo milk.</string>
+    <string name="select_Baudrate">Select Baudrate</string>
+    <string name="mandatory_check">Mandatory Checks</string>
+    <string name="support_unregister_user">Support unregistered user</string>
+    <string name="support_keypad">Support only keyboard</string>
+    <string name="select_ratehcart">Select rate chart</string>
+    <string name="rejection_criteria">Rejection Criteria</string>
+    <string name="all_societies">Societies</string>
+    <string name="fat">Fat</string>
+    <string name="Weigh">Weighing scale</string>
+
+    <string name="Show_amount">Amount</string>
+    <string name="Show_added_water">Added water</string>
+    <string name="milk_analyser">Milk analyser</string>
+    <string name="malm">Master Classic LM2</string>
+    <string name="lactoscan">Lactoscan</string>
+    <string name="milkotester">MILKOTESTER</string>
+    <string name="milkanalyser">MILK ANALYZER</string>
+    <string name="weighingmachine">WEIGHING MACHINE</string>
+    <string name="rdu">RDU</string>
+    <string name="printer">PRINTER</string>
+    <string name="maem">Eco Milk Ultra</string>
+    <string name="snf">SNF</string>
+    <string name="clr">CLR</string>
+    <string name="base_rate">Base Rate</string>
+    <string name="default_fat">2.5</string>
+    <string name="default_snf">8.5</string>
+    <string name="default_clr">25.0</string>
+    <string name="default_baserate">23.0</string>
+    <string name="from">from...</string>
+    <string name="to">to...</string>
+    <string name="rate_change">rate change</string>
+    <string name="addnew_rule">Add rule</string>
+    <string name="remove_rule">Remove rule</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="createRatechart">Create Rate Chart</string>
+    <string name="ruleText2">2nd rule added</string>
+    <string name="ruleText3">3rd rule added</string>
+    <string name="ruleText4">4th rule added</string>
+    <string name="ruleText5">5th rule added</string>
+    <string name="ruleText6">6th rule added</string>
+    <string name="mandatory"><font color="#ffff0000">Red color</font></string>
+    <string name="done">Done</string>
+    <string name="zero_device"> Device(s) Found</string>
+    <string name="no_device">No Device Found</string>
+    <string name="next">Next</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="menu">Menu</string>
+    <string name="reports">Reports</string>
+    <string name="enter_barcode">Enter Barcode</string>
+    <string name="submit">Submit</string>
+    <string name="manual">Manual</string>
+    <string name="enter_farmer">Enter Farmer Id</string>
+    <string name="milk_weigh">Milk Weighing</string>
+    <string name="farmer_name">Name</string>
+    <string name="num_of_cans">Number of cans</string>
+    <string name="cow">Cow</string>
+    <string name="read">Read</string>
+    <string name="auto">Auto</string>
+    <string name="milk_weight">Qty</string>
+    <string name="show_details">Show details</string>
+    <string name="hide_details">Hide details</string>
+    <string name="temperature">Temprature</string>
+    <string name="density">Density</string>
+    <string name="protein">Protein</string>
+    <string name="lactose">Lactose</string>
+    <string name="salts">Salts</string>
+    <string name="added_water">Added water</string>
+    <string name="freezing_point">Freezing point</string>
+    <string name="cattle_type">Cattle type</string>
+    <string name="end_shift">End shift</string>
+    <string name="print">Print</string>
+    <string name="next_farmer">Next farmer</string>
+    <string name="importrateviaExcel">Import Rate Chart Via Excel</string>
+    <string name="importRateChart">Import Rate Chart</string>
+
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="toast_invalid_email">Invalid email or password!</string>
+    <string name="toast_enter_user">Please enter user name</string>
+    <string name="toast_incorrect_user">Incorrect UserID!!</string>
+    <string name="toast_message_send">Message sending..</string>
+    <string name="toast_sms_sent">SMS sent</string>
+    <string name="toast_generic_faliure">Generic failure</string>
+    <string name="toast_no_service">No service</string>
+    <string name="toast_radio_off">Radio off</string>
+    <string name="toast_null_pdu">NULL PDU</string>
+    <string name="toast_sms_delivered">SMS delivered</string>
+    <string name="toast_sms_not_del">SMS not delivered</string>
+    <string name="toast_email_sending">Email sending</string>
+    <string name="toast_email_sent">Email sent</string>
+    <string name="reject">Reject</string>
+    <string name="rate">Rate</string>
+    <string name="amount">Amount</string>
+    <string name="remarks">Remarks</string>
+    <string name="quality_of_milk">Milk Quality</string>
+    <string name="getPeriodicRcords">Get periodic records</string>
+    <string name="periodicReport">Periodic Report</string>
+    <!-- USB -->
+    <string name="dev_connect_button">OPEN</string>
+    <string name="dev_disconnect_button">CLOSE</string>
+    <string name="usb_tab">USB</string>
+
+    <!--Restore Data-->
+
+    <string name="restore_data">Restore devApp Data</string>
+    <string name="forgot_operator_password">Forgot Operator Password</string>
+    <string name="forgot_manager_password">Forgot Manager Password</string>
+    <string name="restore_all_user">Restore All Users</string>
+    <string name="delete_all_ratecharts">Delete All Rate charts</string>
+    <string name="restore_explanation">This will erase all the existing user details, and will generate the default users.Please contact the devApp team for further information.</string>
+    <string name="delete_rate_explanation">This will delete the all existing ratechart in Tab. If there is no rate chart present in application user will not be able to do further collection. So press "Delete" only if you have new rate chart in your Usb device or contact with devApp tram for further information.</string>
+    <string name="rateChart_note">Note: Below fields are not required while importing the encrypted rate chart.</string>
+    <string name="noNetword">Please check the network connectivity.</string>
+
+    <!-- for new Shift details-->
+
+    <string name="total_farmer">Members</string>
+    <string name="total_records">Test records</string>
+    <string name="total_collection">Collection</string>
+    <string name="total_unsent">Unsent</string>
+    <string name="installAPK">Install APK</string>
+    <string name="simlock">SIM Lock</string>
+    <string name="farmdigitLength">Farmer ID digit length</string>
+
+    <!-- for chilling center detail-->
+
+    <string name="chilling_center"> Chilling center id</string>
+    <string name="center_name"> Center name</string>
+    <string name="center_code"> Center code</string>
+    <string name="center_barcode"> Center barcode</string>
+    <string name="contact_name">Contact name</string>
+    <string name="contact_emailId">Contact email</string>
+    <string name="contact_number">Contact number</string>
+
+    <!--Sales information-->
+    <string name="salesManualEnable">Allow auto collection</string>
+    <string name="salesEnable">Enable or disable Sales</string>
+    <string name="cowrate">Cow rate per lt(Rs.)</string>
+    <string name="buffrate">Buffalo rate per lt(Rs.)</string>
+    <string name="mixedRate">Mixed rate per lt(Rs.)</string>
+    <string name="salesreport">Sales Report</string>
+    <string name="salesSample">Sales sample</string>
+    <string name="salesParameter">Sales parameters</string>
+    <string name="salesShift">Shift</string>
+    <string name="salesDate">Date</string>
+    <string name="catttleType">Cattle type</string>
+    <string name="quantity">Quantity ltrs</string>
+    <string name="fatper">Fat%</string>
+    <string name="snfper">Snf%</string>
+    <string name="rateper">Rate/lt</string>
+    <string name="amountrs">Amount</string>
+    <string name="displayFS">Display fat and snf</string>
+    <string name="truckEntry">Truck entry</string>
+    <string name="enableBonusHeader">Enable display bonus</string>
+    <string name="enableBonusRdu">Display bonus on rdu</string>
+    <string name="shiftSales">Sales shift report</string>
+    <string name="totalShift">Total shift report</string>
+    <string name="periodicSales">Sales periodic report</string>
+    <string name="purchaseReport">Dairy report</string>
+    <string name="printFarmer">Print farmer</string>
+    <string name="generatePur">Get dairy report</string>
+    <string name="generateTotalShift">Generate report</string>
+    <string name="associated_center">Assoc Centers</string>
+    <string name="select_shift">Select shift</string>
+    <string name="center_collection">Center collection</string>
+
+    <!-- Print info-->
+
+    <string name="printHP"> A4 size print(HP printer)</string>
+    <string name="enableHP"> Enable print for A4 size</string>
+
+    <!-- Kannada version -->
+
+    <string name="shutdown_delay">Shutdown Delay</string>
+    <string name="choose_delay">Choose Delay(In minutes)</string>
+    <string name="choose_length">Choose length</string>
+
+    <string name="setBonus">Bonus details</string>
+    <string name="BonusPerLiterMilk">Enable bonus per Lt.</string>
+    <string name="EnableBonus">Enable bonus</string>
+    <string name="Copyingmsg">Copying the file please wait..</string>
+
+    <string name="conversion_factor">Conversion factor</string>
+    <string name="conversion_factor_text">Liter to Kg conversion factor</string>
+
+    <string name="devAppUpgrad">devApp application is upgraded, please wait for tab to reboot for this change to be effective</string>
+    <string name="devAppMessage">Welcome to devApp! Automatated milk collection system.</string>
+
+
+    <string name="remember_mek">ನನ್ನ ನೆನಪಿಡು </string>
+    <string name="rejectk">ತಿರಸ್ಕರಿಸು</string>
+    <string name="user_namek">ಬಳಕೆದಾರರ ಹೆಸರು</string>
+    <string name="passwordk">ರಹಸ್ಯ ಪದ</string>
+    <string name="show_passk">ರಹಸ್ಯ ಪದ ತೋರಿಸು</string>
+    <string name="forget_passwordk">ರಹಸ್ಯ ಪದ ಮರೆತಿರುವೆ</string>
+    <string name="sign_ink">ಮುಂದುವರಿ</string>
+    <string name="cancelk">ರದ್ದುಪಡಿಸು</string>
+    <string name="contact_admink">ಆಡಳಿತಗಾರರನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="all_farmersk">ಸದಸ್ಯರು</string>
+    <string name="unregistered_userk">ನೋಂದಾಯಿಸದ ಸದಸ್ಯನ  ಹೆಸರು</string>
+    <string name="farmer_idk">ಸದಸ್ಯರ ಐ ಡಿ</string>
+    <string name="fatk">ಹಾಲಿನ ಕೊಬ್ಬಿನ ಅಂಶ</string>
+    <string name="snfk">ಎಸ್ ಏನ್ ಎಫ್</string>
+    <string name="clrk">CLR</string>
+    <string name="usb_devicesk">ಯು ಎಸ್ ಬಿ ಸಾಧನಗಳು</string>
+    <string name="zero_devicek">ಸಂಪರ್ಕಕ್ಕೆ 0 ಮಾಪನ ಸಿಕ್ಕಿದೆ</string>
+    <string name="no_devicek">ಮಾಪಕಗಳು ಸಂಪರ್ಕದಲ್ಲಿ ಸಿಗುತ್ತಿಲ್ಲ</string>
+    <string name="nextk">ಮುಂದಿನ ಪುಟ</string>
+    <string name="refreshingk">ಸಾಧನಗಳನ್ನು ಹುಡುಕುತ್ತಿದೆ</string>
+    <string name="menuk">ಮೆನು</string>
+    <string name="reportsk">ವರದಿ</string>
+    <string name="enter_barcodek">ಬಾರ್ ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="submitk">ಸಲ್ಲಿಸು</string>
+    <string name="manualk">ಮಾನವ ಚಾಲಿತ</string>
+    <string name="enter_farmerk">ಸದಸ್ಯರ ಐ ಡಿ ನಮೂದಿಸಿ</string>
+    <string name="milk_weighk">ಹಾಲಿನ ತೂಕ</string>
+    <string name="farmer_namek">ಸದಸ್ಯರ ಹೆಸರು</string>
+    <string name="num_of_cansk">ಹಾಲಿನ ಕ್ಯಾನ್ ಸಂಖ್ಯೆ</string>
+    <string name="cowk">ಹಸುಗಳ ಸಂಖ್ಯೆ</string>
+    <string name="readk">ಓದು</string>
+    <string name="autok">ಸ್ವಯಂ ಚಾಲಿತ</string>
+    <string name="milk_weightk">ಹಾಲಿನ ತೂಕ</string>
+    <string name="show_detailsk">ಹೆಚ್ಚಿನ ವಿವರ</string>
+    <string name="hide_detailsk">ಮರೆಮಾಡು</string>
+    <string name="temperaturek">ಉಷ್ಣಾ೦ಶ </string>
+    <string name="densityk">ಸಾಂದ್ರತೆ</string>
+    <string name="proteink">ಪ್ರೋಟೀನ್</string>
+    <string name="lactosek">ಲ್ಯಾಕ್ಟೋಸ್</string>
+    <string name="saltsk">ಲವನಂಶ</string>
+    <string name="added_waterk">ನೀರಿನ ಅಂಶ</string>
+    <string name="freezing_pointk">ಹೆಪ್ಪುಗಟ್ಟುವ ಬಿಂದು</string>
+    <string name="cattle_typek">ಜಾನುವಾರು</string>
+    <string name="printerk">ಮುದ್ರಕ</string>
+    <string name="end_shiftk">ಮುಗಿದಿದೆ </string>
+    <string name="printk">ಮುದ್ರಿಸು</string>
+    <string name="next_farmerk">ಮುಂದಿನ ಸದಸ್ಯ</string>
+    <string name="datek">ದಿನಾಂಕ</string>
+    <string name="shiftk">ಪಾಳಿ</string>
+    <string name="member_codek">ಸದಸ್ಯರ ಬಾರ್ ಕೋಡ್</string>
+    <string name="member_namek">ಸದಸ್ಯರ ಹೆಸರು</string>
+    <string name="milk_typek">ಹಾಲಿನ ಬಗೆ</string>
+    <string name="quantity_ltrk">ಪ್ರಮಾಣ</string>
+    <string name="ratek">ದರ</string>
+    <string name="amountk">ಮೊತ್ತ</string>
+    <string name="please_enter_user_namek">ದಯವಿಟ್ಟು ಸದಸ್ಯರ ಹೆಸರು ದಾಖಲು ಮಾಡಿ</string>
+    <string name="invalid_user_or_passwordk">ದಾಖಲಿಸಿದ ಸದಸ್ಯರ ಐ ಡಿ</string>
+    <string name="incorrect_userIDk">ದಾಖಲಿಸಿದ ಸದಸ್ಯರ ಐ ಡಿ</string>
+    <string name="message_sendingk">ಮೆಸೇಜ್ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="sms_sentk">ಮೆಸೇಜ್  ಕಳುಹಿಸಲಾಗಿದೆ</string>
+    <string name="sms_deliveredk">ಮೆಸೇಜ್ ತಲುಪಿಸಲಾಗಿದೆ</string>
+    <string name="sms_not_deliveredk">ಮೆಸೇಜ್ ತಲುಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="email_sendingk">ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="email_sentk">ಇಮೇಲ್ ತಲುಪಿಸಲಾಗಿದೆ</string>
+    <string name="farmer_id_not_validk">ರಹಸ್ಯ ಪದ ಹೊಂದುತ್ತಿಲ್ಲ</string>
+    <string name="invalid_barcodek">ದೋಷಪೂರಿತ ಬಾರ್ ಕೋಡ್</string>
+    <string name="please_weigh_milkk">ದಯವಿಟ್ಟು ಹಾಲಿನ ತೂಕ ಮಾಡಿ</string>
+    <string name="please_fill_detailsk">ದಯವಿಟ್ಟು ಎಲ್ಲ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="procurement_had_already_donek">ಹಾಲಿನ ಸಂಗ್ರಹಣೆ ಮುಗಿದಿದೆ!</string>
+    <string name="user_is_not_regk">ಸದಸ್ಯರ ಹೆಸರು ನೊಂದಾಯಿಸಿಲ್ಲ</string>
+    <string name="press_submit_btn_contK">ಮುಂದುವರಿಯಲು ಸಲ್ಲಿಸು ಬಟನ್ ಒತ್ತಿ</string>
+
+    <string-array name="device_list">
+        <item>WS</item>
+        <item>MA</item>
+        <item>PRINTER</item>
+        <item>RDU</item>
+    </string-array>
+
+    <string-array name="Printer_message">
+        <item>ದಿನಾಂಕ</item>
+        <item>ಪಾಳಿ</item>
+        <item>ಸದಸ್ಯರ ಬಾರ್ ಕೋಡ್</item>
+        <item>ಸದಸ್ಯರ ಹೆಸರು</item>
+        <item>ಹಾಲಿನ ಬಗೆ</item>
+        <item>ಪ್ರಮಾಣ ಲೀಟರ್</item>
+        <item>ಹಾಲಿನ ಕೊಬ್ಬಿನ ಅಂಶ</item>
+        <item>ಎಸ್ ಏನ್ ಎಫ್</item>
+        <item>ದರ</item>
+        <item>ಮೊತ್ತ</item>
+    </string-array>
+    <string-array name="Set_baudrate">
+        <item>110</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>28800</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>128000</item>
+    </string-array>
+    <string-array name="DecimalRoundOff">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Milk_Analyser">
+        <item>LM2</item>
+        <item>ESSAE</item>
+        <item>LACTOSCAN</item>
+        <item>LACTOSCAN_V2</item>
+        <item>EKOMILK</item>
+        <item>EKOMILK ULTRA PRO</item>
+        <item>KAMDHENU</item>
+        <item>AKASHGANGA</item>
+        <item>INDIFOSS</item>
+        <item>NULINE</item>
+        <item>EKOBOND</item>
+        <item>KSHEERAA</item>
+        <item>EKOMILK EVEN</item>
+        <item>EKOMILK_V2</item>
+        <item>LAKTAN_240</item>
+        <item>LACTOPLUS</item>
+    </string-array>
+    <string-array name="Printer">
+        <item>THERMAL HATSUN</item>
+        <item>THERMAL CHADDHA</item>
+        <item>SMARTMOO</item>
+        <item>TVS</item>
+        <item>TVS 80-MM</item>
+        <item>TVS 80-MM-TAMIL</item>
+
+    </string-array>
+
+    <string-array name="USBGATEWAY">
+        <item>HUB</item>
+        <item>GATEWAY</item>
+    </string-array>
+    <string-array name="RDU">
+        <item>SMART</item>
+        <item>HATSUN</item>
+        <item>ESSAE</item>
+        <item>EVEREST</item>
+        <item>SMART2</item>
+        <item>STELLAPPS</item>
+        <item>STELLAPPSV2</item>
+        <item>AKASHGANGA-16</item>
+        <item>AKASHGANGA-32</item>
+        <item>VECTOR</item>
+
+    </string-array>
+    <string-array name="WEIGHING">
+        <item>SMART</item>
+        <item>HATSUN</item>
+        <item>EVEREST</item>
+        <item>ESSAE</item>
+        <item>GOLDTECH</item>
+
+    </string-array>
+    <string-array name="MA_Milk_type">
+        <item>NONE</item>
+        <item>COW</item>
+        <item>BUFFALO</item>
+        <item>MIXED</item>
+
+    </string-array>
+    <string-array name="Device_Name">
+        <item>Device Name</item>
+        <item>Printer</item>
+        <item>Weighing Indicator</item>
+        <item>Milkotester</item>
+        <item>Keyboard</item>
+        <item>Scanner</item>
+    </string-array>
+
+
+    <string-array name="Milk_type_both">
+        <item>COW</item>
+        <item>BUFFALO</item>
+    </string-array>
+
+    <string-array name="Milk_type_farmer">
+        <item>COW</item>
+        <item>BUFFALO</item>
+        <item>BOTH</item>
+        <item>MIXED</item>
+
+    </string-array>
+
+    <string-array name="Milk_type">
+        <item>COW</item>
+        <item>BUFFALO</item>
+        <item>MIXED</item>
+
+    </string-array>
+    <string-array name="dispatch_milk_type">
+        <item>MIXED</item>
+        <item>COW</item>
+        <item>BUFFALO</item>
+
+    </string-array>
+    <string-array name="Farmer_Names">
+        <item>All farmers</item>
+        <item>Farmer-1</item>
+        <item>Farmer-2</item>
+        <item>Farmer-3</item>
+        <item>Farmer-4</item>
+    </string-array>
+    <string-array name="User_Role">
+        <item>Operator</item>
+        <item>Manager</item>
+        <item>Tanker Supervisor</item>
+        <item>Dispatch Supervisor</item>
+    </string-array>
+
+    <string-array name="User_RoleAll">
+        <item>Admin</item>
+        <item>Operator</item>
+        <item>Manager</item>
+        <item>Team lead</item>
+        <item>Society secretary</item>
+    </string-array>
+
+    <string-array name="Farmer_Length">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="ShutDown_Delay">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="Increase_factor">
+        <item>0.00</item>
+        <item>0.25</item>
+        <item>0.50</item>
+        <item>0.75</item>
+        <item>1.00</item>
+        <item>1.25</item>
+        <item>1.50</item>
+        <item>1.75</item>
+        <item>2.00</item>
+        <item>2.25</item>
+        <item>2.50</item>
+        <item>2.75</item>
+        <item>3.00</item>
+        <item>3.25</item>
+        <item>3.50</item>
+        <item>3.75</item>
+        <item>4.00</item>
+        <item>4.25</item>
+        <item>4.50</item>
+        <item>4.75</item>
+        <item>5.00</item>
+        <item>5.25</item>
+        <item>5.50</item>
+        <item>5.75</item>
+        <item>6.00</item>
+    </string-array>
+    <string-array name="Increase_factorSF">
+        <item>0.00</item>
+        <item>0.10</item>
+        <item>0.20</item>
+        <item>0.30</item>
+        <item>0.40</item>
+        <item>0.50</item>
+        <item>0.60</item>
+        <item>0.70</item>
+        <item>0.80</item>
+        <item>0.90</item>
+        <item>1.00</item>
+    </string-array>
+    <string-array name="Select_shift">
+        <item>M</item>
+        <item>E</item>
+    </string-array>
+
+    <string-array name="Ratechart_Type">
+        <item>Collection</item>
+        <item>Sales</item>
+        <item>Union</item>
+
+    </string-array>
+
+    <string-array name="Select_client">
+        <item>STELLAPPS</item>
+        <item>HATSUN</item>
+        <item>CLIENT1</item>
+        <item>CLIENT2</item>
+    </string-array>
+
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="main_button_discovery">Printer Discovery</string>
+    <string name="main_button_open">Open</string>
+    <string name="main_button_close">Close</string>
+    <string name="main_button_text">Text</string>
+    <string name="main_button_image">Image</string>
+    <string name="main_button_barcode">Barcode</string>
+    <string name="main_button_2dcode">2D Code</string>
+    <string name="main_button_pagemode">Page Mode</string>
+    <string name="main_button_cut">Cut</string>
+    <string name="main_button_getstatustate">Get Status</string>
+    <string name="main_button_getname">Get Printer Name</string>
+    <string name="discovery_label_devtype">Device Type</string>
+    <string name="discovery_radio_tcp">TCP(Wi-Fi)</string>
+    <string name="discovery_radio_blueooth">Bluetooth</string>
+    <string name="discovery_radio_usb">USB</string>
+    <string name="discovery_label_printerlist">Printer List</string>
+    <string name="open_button_open">Open</string>
+    <string name="open_label_devtype">Device Type</string>
+    <string name="open_radio_tcp">TCP(Wi-Fi)</string>
+    <string name="open_radio_blueooth">Bluetooth</string>
+    <string name="open_radio_usb">USB</string>
+    <string name="open_label_ip">IP Address / MAC Address / USB Device Node</string>
+    <string name="open_label_pritner">Printer Name</string>
+    <string name="open_label_langname">Language</string>
+    <string name="text_button_print">Print</string>
+    <string name="text_label_text">Print Characters</string>
+    <string name="text_edit_text">EPSON printer text</string>
+    <string name="text_label_font">Font</string>
+    <string name="text_label_align">Align</string>
+    <string name="text_label_linespace">Line Spacing</string>
+    <string name="text_label_language">Language</string>
+    <string name="text_label_size">Size(Width, Height)</string>
+    <string name="text_label_style">Style</string>
+    <string name="text_label_style_bold">Bold</string>
+    <string name="text_label_underline">Underline</string>
+    <string name="text_label_xpositon">X Position</string>
+    <string name="text_label_feedunit">Feed Unit</string>
+    <string name="image_button_print">Print</string>
+    <string name="image_button_select">Select Image</string>
+    <string name="image_view_preview">preview</string>
+    <string name="barcode_button_print">Print</string>
+    <string name="barcode_label_type">Type</string>
+    <string name="barcode_label_data">Data</string>
+    <string name="barcode_label_hri">HRI</string>
+    <string name="barcode_label_font">Font</string>
+    <string name="barcode_label_modulesize">Module Size(Width, Height)</string>
+    <string name="code2d_button_print">Print</string>
+    <string name="code2d_label_type">Type</string>
+    <string name="code2d_label_data">Data</string>
+    <string name="code2d_label_level">Error Correction Level</string>
+    <string name="code2d_label_modulesize">Module Size(Width, Height)</string>
+    <string name="code2d_label_maxsize">Max Size</string>
+    <string name="pagemode_button_print">Print</string>
+    <string name="pagemode_label_text">Print Characters</string>
+    <string name="pagemode_label_area">Print Area(X, Y, Width, Height)</string>
+    <string name="cut_button_print">Print</string>
+    <string name="cut_label_type">Type</string>
+    <string name="getname_button_get">Get Printer Name</string>
+    <string name="getname_label_devtype">Device Type</string>
+    <string name="getname_radio_tcp">TCP(Wi-Fi)</string>
+    <string name="getname_radio_blueooth">Bluetooth</string>
+    <string name="getname_radio_usb">USB</string>
+    <string name="getname_label_ip">IP Address / MAC Address / USB Device Node</string>
+    <string name="printername_t88v">TM-T88V</string>
+    <string name="printername_t70">TM-T70</string>
+    <string name="printername_u220">TM-U220</string>
+    <string name="printername_p60">TM-P60</string>
+    <string name="printername_p60ii">TM-P60II</string>
+    <string name="printername_t20">TM-T20</string>
+    <string name="printername_t82">TM-T82</string>
+    <string name="printername_t81ii">TM-T81II</string>
+    <string name="printername_t82ii">TM-T82II</string>
+    <string name="printername_t70ii">TM-T70II</string>
+    <string name="printername_t90ii">TM-T90II</string>
+    <string name="printername_t20ii">TM-T20II</string>
+    <string name="printername_p80">TM-P80</string>
+    <string name="language_ank">ANK</string>
+    <string name="language_japanese">JAPANESE</string>
+    <string name="language_simplified_chinese">SIMPLIFIED CHINESE</string>
+    <string name="language_traditional_chinese">TRADITIONAL CHINESE</string>
+    <string name="language_korean">KOREAN</string>
+    <string name="language_thai">THAI</string>
+    <string name="language_vietnamese">VIETNAMESE</string>
+    <string name="language_other">Other</string>
+    <string name="font_a">Font A</string>
+    <string name="font_b">Font B</string>
+    <string name="font_c">Font C</string>
+    <string name="align_left">Left</string>
+    <string name="align_center">Center</string>
+    <string name="align_right">Right</string>
+    <string name="bartype_upca">UPC-A</string>
+    <string name="bartype_upce">UPC-E</string>
+    <string name="bartype_ean13">EAN13</string>
+    <string name="bartype_jan13">JAN13</string>
+    <string name="bartype_ean8">EAN8</string>
+    <string name="bartype_jan8">JAN8</string>
+    <string name="bartype_code39">CODE39</string>
+    <string name="bartype_itf">ITF</string>
+    <string name="bartype_codabar">CODABAR</string>
+    <string name="bartype_code93">CODE93</string>
+    <string name="bartype_code128">CODE128</string>
+    <string name="bartype_gs1128">GS1-128</string>
+    <string name="bartype_gs1om">GS1 DataBar Omnidirectional</string>
+    <string name="bartype_gs1tr">GS1 DataBar Truncated</string>
+    <string name="bartype_gs1li">GS1 DataBar Limited</string>
+    <string name="bartype_gs1ex">GS1 DataBar Expanded</string>
+    <string name="bardata_upca">01234567890</string>
+    <string name="bardata_upce">01234500005</string>
+    <string name="bardata_ean13">201234567890</string>
+    <string name="bardata_jan13">201234567890</string>
+    <string name="bardata_ean8">2012345</string>
+    <string name="bardata_jan8">2012345</string>
+    <string name="bardata_code39">ABCDE</string>
+    <string name="bardata_itf">012345</string>
+    <string name="bardata_codabar">A012345A</string>
+    <string name="bardata_code93">ABCDE</string>
+    <string name="bardata_code128">{Babcde</string>
+    <string name="bardata_gs1128">(01)201234567890*</string>
+    <string name="bardata_gs1om">0201234567890</string>
+    <string name="bardata_gs1tr">0201234567890</string>
+    <string name="bardata_gs1li">0201234567890</string>
+    <string name="bardata_gs1ex">(01)2012345678903</string>
+    <string name="code2type_pdf417s">Standard PDF417</string>
+    <string name="code2type_pdf417t">Truncated PDF417</string>
+    <string name="code2type_qr1">QR Code Model 1</string>
+    <string name="code2type_qr2">QR Code Model 2</string>
+    <string name="code2type_maxcode2">MaxiCode Mode 2</string>
+    <string name="code2type_maxcode3">MaxiCode Mode 3</string>
+    <string name="code2type_maxcode4">MaxiCode Mode 4</string>
+    <string name="code2type_maxcode5">MaxiCode Mode 5</string>
+    <string name="code2type_maxcode6">MaxiCode Mode 6</string>
+    <string name="code2type_gr1st">GS1 DataBar Stacked</string>
+    <string name="code2type_gr1so">GS1 DataBar Stacked Omnidirectional</string>
+    <string name="code2type_gr1es">GS1 DataBar Expanded Stacked</string>
+    <string name="code2type_aztecfull">Aztec Code Full-Range</string>
+    <string name="code2type_azteccompact">Aztec Code Compact</string>
+    <string name="code2type_dmsquare">DataMatrix Square</string>
+    <string name="code2type_dmrect_8rows">DataMatrix Rectangle 8 Rows</string>
+    <string name="code2type_dmrect_12rows">DataMatrix Rectangle 12 Rows</string>
+    <string name="code2type_dmrect_16rows">DataMatrix Rectangle 16 Rows</string>
+    <string name="code2data_pdf417s">ABCDE</string>
+    <string name="code2data_pdf417t">ABCDE</string>
+    <string name="code2data_qr1">ABCDE</string>
+    <string name="code2data_qr2">ABCDE</string>
+    <string name="code2data_maxcode2">908063840\\x1d850\\x1d001\\x1d\\x04</string>
+    <string name="code2data_maxcode3">908063840\\x1d850\\x1d001\\x1d\\x04</string>
+    <string name="code2data_maxcode4">908063840\\x1d850\\x1d001\\x1d\\x04</string>
+    <string name="code2data_maxcode5">908063840\\x1d850\\x1d001\\x1d\\x04</string>
+    <string name="code2data_maxcode6">908063840\\x1d850\\x1d001\\x1d\\x04</string>
+    <string name="code2data_gr1st">0201234567890</string>
+    <string name="code2data_gr1so">0201234567890</string>
+    <string name="code2data_gr1es">(01)02012345678903</string>
+    <string name="code2data_aztecfull">ABCDE</string>
+    <string name="code2data_azteccompact">ABCDE</string>
+    <string name="code2data_dmsquare">ABCDE</string>
+    <string name="code2data_dmrect_8rows">ABCDE</string>
+    <string name="code2data_dmrect_12rows">ABCDE</string>
+    <string name="code2data_dmrect_16rows">ABCDE</string>
+    <string name="level_pdf417_0">Level 0</string>
+    <string name="level_pdf417_1">Level 1</string>
+    <string name="level_pdf417_2">Level 2</string>
+    <string name="level_pdf417_3">Level 3</string>
+    <string name="level_pdf417_4">Level 4</string>
+    <string name="level_pdf417_5">Level 5</string>
+    <string name="level_pdf417_6">Level 6</string>
+    <string name="level_pdf417_7">Level 7</string>
+    <string name="level_pdf417_8">Level 8</string>
+    <string name="level_qr_l">Level L</string>
+    <string name="level_qr_m">Level M</string>
+    <string name="level_qr_q">Level Q</string>
+    <string name="level_qr_h">Level H</string>
+    <string name="hri_none">None</string>
+    <string name="hri_above">Above</string>
+    <string name="hri_below">Below</string>
+    <string name="hri_both">Both</string>
+    <string name="pagemode_edit_text">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="cuttype_nofeed">No Feed</string>
+    <string name="cuttype_feed">Feed</string>
+    <string name="empty">-</string>
+    <string name="methoderr_errcode">Error Code</string>
+    <string name="methoderr_method">Method</string>
+    <string name="statusmsg_result">Result</string>
+    <string name="statusmsg_status">Status</string>
+    <string name="statusmsg_batterystatus">Battery Status</string>
+    <string name="statusmsg_ipaddress">IP Address / MAC Address / USB Device Node</string>
+    <string name="errmsg_noaddress">IP address or MAC address or USB Device Node is not specified.</string>
+    <string name="errmsg_notext">Print data is not input.</string>
+    <string name="errmsg_noimage">Print image is not selected.</string>
+    <string name="errmsg_getname">Failed to get printer name.</string>
+    <string name="namemsg_name">Printer Name</string>
+    <string name="namemsg_language">Language</string>
+    <string name="text_label_statusmonitor">Status Monitor</string>
+    <string name="text_label_enabled">Enabled</string>
+    <string name="text_label_interval">Interval</string>
+    <string name="text_label_colormode">Color Mode</string>
+    <string name="text_label_halftonemethod">Halftone Method</string>
+    <string name="text_label_brightness">Brightness</string>
+    <string name="mode_mono">Mono</string>
+    <string name="mode_gray16">Gray 16</string>
+    <string name="halftone_dither">Dither</string>
+    <string name="halftone_error_diffusion">Error Diffusion</string>
+    <string name="halftone_threshold">Threshold</string>
+    <string name="model_ank">ANK</string>
+    <string name="model_japanese">JAPANESE</string>
+    <string name="model_chinese">CHINESE</string>
+    <string name="model_taiwan">TAIWAN</string>
+    <string name="model_korean">KOREAN</string>
+    <string name="model_thai">THAI</string>
+
+    <string name="model_southasia">SOUTH ASIA</string>
+    <string name="model_other">Other</string>
+    <string name="main_button_logsettings">Log Settings</string>
+    <string name="next_activity">Next</string>
+    <string name="configuration">Configuration</string>
+    <string name="logsettings_button_setting">Setting</string>
+    <string name="logsettings_label_enabled">Enabled</string>
+    <string name="logsettings_label_ip">IP Address</string>
+    <string name="logsettings_dummy_ip">192.168.192.168</string>
+    <string name="logsettings_label_port">Port</string>
+    <string name="logsettings_label_logsize">Log Size</string>
+    <string name="logsettings_dummy_port">49152</string>
+    <string name="logsettings_dummy_logsize">1</string>
+    <string name="logsettings_label_savesettingspermanently">Save Settings Permanently</string>
+    <string name="logsettings_label_loglevel">Log Level</string>
+    <string name="log_disable">Disable</string>
+
+    <string name="log_storage">Storage</string>
+    <string name="log_tcp">TCP</string>
+    <string name="log_low">Low</string>
+    <string name="pendrive_alert">No pendrive detected or do not have access to read and write to pendrive! Press continue to proceed or cancel and connect the pendrive.</string>
+    <string name="toast_error_enabling">Error enabling firewall on boot.</string>
+    <string name="installed_message">devApp application installed, Please restart the tab!</string>
+    <string name="title_activity_setting_main">SettingMainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="weighing_limit_heading">Set weighing scale limit</string>
+    <string name="weighing_limit_text">Weighing scale limit</string>
+    <string name="weighing_limit">1000.00</string>
+
+    <!--Milk Weing State Texts-->
+    <string name="weing_button">Milk Weighing State</string>
+    <string name="dialog_weing_heading">Milk Weighing State</string>
+    <string name="filled_text">Filled Can</string>
+    <string name="empty_text">Empty Can</string>
+    <string name="previous_vol_text">Previous Volume: </string>
+    <string name="new_vol_text">New Volume: </string>
+    <string name="total_vol_text">Total Volume: </string>
+    <string name="done_weing_button">Done</string>
+    <string name="back">Back</string>
+
+    <!--Truck Events Activity-->
+    <string name="coolection_summary">Collection Summary</string>
+    <string name="total_collection_milk">Collected Milk</string>
+    <string name="total_collection_amount">Amount</string>
+    <string name="local_collection_milk">Local Sales</string>
+    <string name="truck_collection_milk">Truck Event</string>
+    <string name="summary_collection_milk">Total Milk</string>
+    <string name="summary_collection_amount">Total Amount</string>
+    <string name="avg_rate">Rate</string>
+    <string name="avg_fat">FAT</string>
+    <string name="avg_snf">SNF</string>
+    <string name="total_quan">Total Quantity</string>
+    <string name="total_rate">Total Amount</string>
+    <string name="date">dd</string>
+    <string name="month">Mon</string>
+    <string name="year">YYYY</string>
+    <string name="truckEntryDate"> Truck Entry</string>
+    <string name="purity">Purity</string>
+    <string name="puritySpinner">Select Purity</string>
+    <string name="quality">Quality</string>
+    <string name="cob">COB</string>
+    <string name="evening">Evening</string>
+    <string name="morning">Morning</string>
+    <string name="shift">Shift</string>
+    <string name="buffalo">Buffalo</string>
+    <string name="milk_type">Milk</string>
+    <string name="quan">Quantity: </string>
+    <string name="quant">Quantity</string>
+    <string name="avgfat">Avg.Fat: </string>
+    <string name="avgsnf">Avg.Snf:</string>
+    <string name="rte">Rate (Rs.) :</string>
+    <string name="amt">Total Amount :</string>
+    <string name="add">Add</string>
+    <string name="finish">Finish</string>
+    <string name="truckentry">Truck Entry</string>
+    <string name="mix_milk">Mixed</string>
+    <string name="truck_entry_report">Truck Entry Report</string>
+    <string name="total_collection_center">Total Collection</string>
+    <string name="local_sales">Local Sales Collection</string>
+    <string name="truck_event_sales">Truck Event Collection</string>
+
+    <!-- Vauled added per new Milma requirement-->
+
+    <string name="center_id">Center Id</string>
+    <string name="number_of_cans">Number of Cans</string>
+    <string name="header_weight_collection_activity">Quantity measurement</string>
+    <string name="print_duplicate">Print Duplicate</string>
+    <string name="center_route">Center route</string>
+    <string name="serial_id">Serial ID</string>
+
+    <string name="report_header"> Select records</string>
+
+    <string name="configure_ma"> Configure Milk Analyser</string>
+
+    <string name="configure_ma1">Port Configuration for Milk Analyser 1</string>
+    <string name="configure_ma2">Port Configuration for Milk Analyser 2</string>
+
+    <string name="choose_port"> Choose port</string>
+
+    <string name="invalid_ma_data"> Application received invalid data from milk analyzer," +
+                                        " press F10 to reboot the tab</string>
+    <string-array name="SelectMA">
+        <item>MA1</item>
+        <item>MA2</item>
+    </string-array>
+
+    <string-array name="chooseport">
+        <item>Milk Analyser</item>
+        <item>RDU</item>
+        <item>Weighing Scale</item>
+        <item>Printer</item>
+    </string-array>
+
+    <string name="calibration">Calibration</string>
+    <string name="datef">Date</string>
+    <string name="time">Time</string>
+
+    <string name="checkconn">Connectivity</string>
+
+    <!-- to set device configuration-->
+
+    <string-array name="MA_parity">
+        <item>PARITY_NONE</item>
+        <item>PARITY_ODD</item>
+        <item>PARITY_EVEN</item>
+        <item>PARITY_MARK</item>
+        <item>PARITY_SPACE</item>
+    </string-array>
+
+    <string-array name="MA_stop_bits">
+        <item>STOP_BITS_1</item>
+        <item>STOP_BITS_1.5</item>
+        <item>STOP_BITS_2</item>
+    </string-array>
+
+    <string-array name="MA_data_bits">
+        <item>DATA_BITS_5</item>
+        <item>DATA_BITS_6</item>
+        <item>DATA_BITS_7</item>
+        <item>DATA_BITS_8</item>
+    </string-array>
+
+    <string name="select_parity"> Select parity</string>
+    <string name="select_stopbits"> Select stop bits</string>
+    <string name="select_databits"> Select data bits</string>
+
+    <string name="allow_collection">Allow Collection</string>
+    <string name="allow_collection_prompt">Select type</string>
+
+    <string-array name="Allow_collection_type">
+        <item>SINGLE</item>
+        <item>MULTIPLE</item>
+    </string-array>
+
+    <string name="message">
+        Currently, mobile data is off, please press OK to switch on the mobile data OR press cancel to continue.
+    </string>
+    <string name="title_activity_all_truck">AllTruckActivity</string>
+    <string name="action_search"> Search </string>
+    <string name="title_truckdetails_list">truckItems</string>
+    <string name="title_truckdetails_detail">truck_details Detail</string>
+
+    <string name="milk_status_heading">Milk status</string>
+
+    <string-array name="Milk_Status">
+        <item>GOOD</item>
+        <item>SOUR</item>
+        <item>CURD</item>
+        <item>SOUR VEHICLE FAULT</item>
+    </string-array>
+
+    <string-array name="Reject_milk_status">
+        <item>SOUR</item>
+        <item>CURD</item>
+        <item>SOUR VEHICLE FAULT</item>
+    </string-array>
+
+    <string name="truck_heading">Truck sheet</string>
+    <string name="truck_date">Date</string>
+    <string name="truck_time">Time</string>
+    <string name="truck_shift">Shift</string>
+    <string name="truck_amount">Amount</string>
+    <string name="truck_cans_in">Cans In</string>
+    <string name="truck_cans_out">Cans Out</string>
+    <string name="truck_center">Center</string>
+    <string name="truck_remarks">Truck Remarks</string>
+    <string name="truck_material">Material</string>
+    <string name="choose_shift">Choose Shift</string>
+
+    <string name="truck_list">Truck list</string>
+    <string name="agent_list">Agent list</string>
+
+    <string name="reject_entry">Reject entry</string>
+
+    <string name="agent_collection">Agent Collection</string>
+
+    <string name="split_collection">Split Collection</string>
+
+
+    <string-array name="select_shift">
+        <item>MORNING</item>
+        <item>EVENING</item>
+
+    </string-array>
+
+    <string name="reject_heading">Reject Entry</string>
+    <string name="reject_SID">Milk Sample ID</string>
+    <string name="reject_fat">FAT</string>
+    <string name="reject_snf">SNF</string>
+    <string name="reject_qty">Quantity</string>
+    <string name="reject_reason">Reject Reason</string>
+    <string name="reject_rate">Rate</string>
+    <string name="reject_amount">Amount</string>
+
+    <string name="no_data_found">No data found!</string>
+
+    <string name="agent_heading">Agent details</string>
+    <string name="agent_name">Name</string>
+    <string name="agent_id">Agent ID</string>
+    <string name="agent_mob">Moblie Num</string>
+    <string name="agent_num_of_cans">Number Of Cans</string>
+    <string name="agent_distance">Distance To Delivery</string>
+    <string name="agent_centers">Associates Center</string>
+    <string name="agent_routes">Associates Routes</string>
+    <string name="agent_uniqueId">Unique ID</string>
+    <string name="tareAndCancel">Tare &amp; Cancel</string>
+
+
+    <string-array name="Select_Route">
+        <item>Route1</item>
+        <item>Route2</item>
+        <item>Route3</item>
+    </string-array>
+
+    <string-array name="Select_Center">
+        <item>Center1</item>
+        <item>Center2</item>
+        <item>Center3</item>
+    </string-array>
+
+    <string name="route_prompt">Select route</string>
+    <string name="center_prompt">Select center</string>
+    <string name="submit_and_next">Submit &amp; Next</string>
+
+    <string-array name="Select_Format">
+        <item>Normal</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+
+    <string name="additional_configuration">Additional Configuration</string>
+    <string name="start_mrn_shift">Morning collection start time</string>
+    <string name="end_mrn_shift">Morning collection end time</string>
+    <string name="start_evn_shift">Evening collection start time</string>
+    <string name="end_evn_shift">Evening collection end time</string>
+    <string name="accept_zero_fat_snf">Ignore zero fat and snf</string>
+    <string name="time_left_for_session">Session information</string>
+
+    <string name="enable_time_constraints_for_session">Enable time constraints for session </string>
+
+
+    <string name="note_shift">*Allow operator to do collection in between start and end time of corresponding shift</string>
+    <string name="note_zero_collection"> *Application will not consider 0 Fat and 0 SNF for a valid collection</string>
+
+    <!-- Tanker details-->
+
+
+    <string-array name="CompartmentNumber">
+
+        <item>F</item>
+        <item>R</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>ACCEPT</item>
+        <item>REJECT</item>
+    </string-array>
+
+    <string name="compartment_number"> Compartment number </string>
+    <string name="status">Status</string>
+    <string name="enter_tanker">Enter Tanker Details</string>
+    <string name="enter_dispatch">Enter Dispatch Details</string>
+
+    <string-array name="QuantityUnit">
+        <item>LTR</item>
+        <item>KG</item>
+    </string-array>
+
+    <string name="farmer">Members</string>
+    <string name="center">Centers</string>
+    <string name="total">Total Summary</string>
+    <string name="endshift">End shift</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="rateChartMandatory">Ratechart mandatory for collection</string>
+    <string name="fatsnfnote">* The min and max value of fat
+        and snf should be in between 0.0 and 14.0</string>
+
+    <string name="minFat">Minimum fat limit</string>
+    <string name="minSnf">Minimum SNF limit</string>
+    <string name="maxFat">Maximum fat limit</string>
+    <string name="maxSnf">Maximum SNF limit</string>
+
+    <string-array name="DeviceType">
+        <item>MA1</item>
+        <item>MA2</item>
+        <item>RDU</item>
+        <item>WEIGHING MACHINE</item>
+        <item>PRINTER</item>
+        <item>NO CONNECTION</item>
+    </string-array>
+
+    <string name="select_device"> Select device</string>
+    <string name="configure_device">Configure Device</string>
+    <string name="unsent_alert">Unsent record alert</string>
+    <string name="title_activity_navaigate_report">NavaigateReport</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="current_time"> Current date &amp; time </string>
+    <string name="last_coll_time"> Last collection date &amp; time </string>
+    <string name="settime">Set date&amp;time</string>
+
+    <string name="date_format"> DD-MMM-YYYY </string>
+    <string name="time_format"> MM:SS </string>
+
+    <string name="allow_header">Allow center details in print: </string>
+    <string name="editCollection">Edit Collection</string>
+    <string name="select_agent">Select Agent</string>
+    <string name="select_farmer_type">Select Type</string>
+
+    <string-array name="farmer_type">
+        <item>FARMER</item>
+        <item>Aggregate Farmer</item>
+    </string-array>
+    <string name="aggerate_farmer_id">Aggregate farmer id</string>
+
+
+    <string name="protein_rate">Protein Rate</string>
+    <string name="collection_incentive">Collection + Incentive</string>
+    <string name="device_status">Device Status</string>
+    <string name="unsent_records">Unsent Records</string>
+
+    <string name="kg_fat">KG-Fat</string>
+    <string name="kg_snf">KG-SNF</string>
+    <string name="total_kg_fat">Total KG-Fat</string>
+    <string name="total_kg_snf">Total KG-SNF</string>
+
+    <string name="preffix">prefix</string>
+    <string name="suffix">suffix</string>
+    <string name="separator">separator</string>
+    <string name="complete">\tComplete</string>
+    <string name="incomplete">\tIncomplete</string>
+    <string name="center_status">Center Status</string>
+    <string name="active">Active</string>
+    <string name="in_active">InActive</string>
+
+    <string name="amcu_sync">AMCU Sync</string>
+    <string name="farmer_sync">Farmers</string>
+    <string name="ratechart_sync">Rate charts </string>
+    <string name="config_sync">Configuration </string>
+
+    <string name="read_quantity">Read Weight</string>
+    <string name="submit_quality">Submit Quality</string>
+    <string name="submit_rate">Submit Rate</string>
+    <string name="enter_rate">Enter Rate</string>
+
+    <integer name="ap_port">2023</integer>
+
+    <string name="endshift_status">Endshift status</string>
+    <string name="total_unsent_records">Total unsent records</string>
+    <string name="unsent_collection">Unsent collection records</string>
+    <string name="unsent_updated_records">Unsent edited records</string>
+
+    <string name="power">Power</string>
+    <string name="data">Data</string>
+    <!-- <string name="rdu">RDU</string>-->
+    <string name="keyboard">Keyboard</string>
+    <string name="scanner">Scanner</string>
+    <string name="ma1">MA1</string>
+    <string name="ma2">MA2</string>
+    <string name="ws">Weighing scale</string>
+    <!-- <string name="printer">Printer</string>-->
+    <string name="offline_record">Offline Records</string>
+
+    <string-array name="collection_type">
+        <item>Select Collection Type..</item>
+        <item>All</item>
+        <item>Member</item>
+        <item>MCC</item>
+        <item>Sales</item>
+        <item>Edit Records</item>
+        <item>Sample</item>
+        <item>Split Records</item>
+        <item>Incomplete Records</item>
+    </string-array>
+
+    <!-- Added for Hindi localization -->
+    <string name="h_sample_id">नमूना आईडी</string>
+    <string name="h_center_id">केंद्र आईडी</string>
+    <string name="h_member_id">सदस्य आईडी</string>
+    <string name="h_route">मार्ग</string>
+    <string name="h_fat">वसा</string>
+    <string name="h_snf">एसएनएफ</string>
+    <string name="h_qty">मात्रा</string>
+    <string name="h_rate">दर</string>
+    <string name="h_amt">रकम</string>
+    <string name="h_bonus">लाभ</string>
+    <string name="h_incentive">प्रोत्साहन राशि</string>
+    <string name="h_cattle_type">मवेशी</string>
+    <string name="h_sample_record">नमूना रिकॉर्ड</string>
+    <string name="h_milk_type">मवेशी प्रकार</string>
+    <string name="h_total_summary">कुल सारांश</string>
+    <string name="h_serial_number">क्रमांक</string>
+    <string name="h_name">नाम</string>
+    <string name="h_date">दिनांक</string>
+    <string name="h_shift">पाली</string>
+    <string name="h_protein">प्रोटीन</string>
+    <string name="h_time">समय</string>
+    <string name="h_total_amount">कुल रकम</string>
+    <string name="h_Rupee">रुपये</string>
+    <string name="h_total_kg_fat">कुल किलो वसा</string>
+    <string name="h_total_kg_snf">कुल किलो एस.एन.एफ</string>
+    <string name="h_num_of_can">केन संख्या</string>
+    <string name="h_collected_qty">एकत्रित मात्रा</string>
+    <string name="h_sold_qty">बेच मात्रा</string>
+    <string name="h_available_qty">उपलब्ध मात्रा</string>
+    <string name="h_measured_qty">मापित मात्रा</string>
+    <string name="h_clr">सीएलआर</string>
+    <string name="h_signature">हस्ताक्षर</string>
+    <string name="h_code">कोड</string>
+    <string name="h_total_farmers">कुल किसान</string>
+    <string name="h_total_accepted">कुल स्वीकृत</string>
+    <string name="h_total_rejected">कुल अस्वीकृत</string>
+    <string name="h_average_amount">औसत राशि</string>
+    <string name="h_average_quantity">औसत मात्रा</string>
+    <string name="h_average_rate">सामान्य दर</string>
+    <string name="h_total_quantity">कुल मात्रा</string>
+    <string name="h_average_fat">औसत वसा</string>
+    <string name="h_average_snf">औसत एसएनएफ</string>
+    <string name="h_average_ltrs">औसत ltrs</string>
+    <string name="h_grand_total">कुल योग</string>
+    <string name="h_cow">गाय</string>
+    <string name="h_buffalo">भैंस</string>
+
+
+    <!-- Tamil localization-->
+    <string name="tm_id">எண்</string>
+    <string name="tm_rupee_unit">ரூபாய்</string>
+    <string name="tm_sample_id">மாதிரி ஐடி</string>
+    <string name="tm_center_id">சென்டர் ஐடி</string>
+    <string name="tm_member_id">உறுப்பினர் எண்</string>
+    <string name="tm_route">வழி</string>
+    <string name="tm_fat">கொழுப்பு</string>
+    <string name="tm_snf">இதர</string>
+    <string name="tm_qty">அளவு</string>
+    <string name="tm_rate">விலை</string>
+    <string name="tm_amt">தொகை</string>
+    <string name="tm_bonus">வெகுமதி</string>
+    <string name="tm_incentive">ஊக்க ஊதியம்</string>
+    <string name="tm_cattle_type">கால்நடை</string>
+    <string name="tm_sample_record">மாதிரி பதிவு</string>
+    <string name="tm_milk_type">பால் வகை</string>
+    <string name="tm_total_summary">மொத்த சுருக்கம்</string>
+    <string name="tm_serial_number">வரிசை எண்</string>
+    <string name="tm_name">பெயர்</string>
+    <string name="tm_date">தேதி</string>
+    <string name="tm_shift">வேலைமாற்றம்</string>
+    <string name="tm_protein">புரோடீன்</string>
+    <string name="tm_time">நேரம்</string>
+    <string name="tm_total_amount">மொத்த தொகை</string>
+    <string name="tm_Rupee">ரூபாய்</string>
+    <string name="tm_total_kg_fat">மொத்த கிலோ கொழுப்பு</string>
+    <string name="tm_total_kg_snf">மொத்த கிலோ இதர</string>
+    <string name="tm_num_of_can">மொத்த குவளை</string>
+    <string name="tm_collected_qty">சேகரிக்கப்பட்ட அளவு</string>
+    <string name="tm_sold_qty">விற்பனை அளவு</string>
+    <string name="tm_available_qty">மீதமுள்ள அளவு</string>
+    <string name="tm_measured_qty">அளவு</string>
+    <string name="tm_clr">सीएलआर</string>
+    <string name="tm_signature">கையொப்பம்</string>
+    <string name="tm_code">எண்</string>
+    <string name="tm_total_farmers">மொத்த விவசாயி</string>
+    <string name="tm_total_accepted">மொத்த ஏற்றுக்கொள்ளப்பட்டது</string>
+    <string name="tm_total_rejected">மொத்தம் நிராகரிக்கப்பட்டது</string>
+    <string name="tm_average_amount">சராசரி தொகை</string>
+    <string name="tm_average_quantity">சராசரி அளவு</string>
+    <string name="tm_average_rate">சராசரி விகிதம்</string>
+    <string name="tm_total_quantity">மொத்த அளவு</string>
+    <string name="tm_average_fat">சராசரி கொழுப்புा</string>
+    <string name="tm_average_snf">சராசரி இதர</string>
+    <string name="tm_average_ltrs">சராசரி லிட்டர்</string>
+    <string name="tm_grand_total">பெரும் மொத்தம்</string>
+    <string name="tm_cow">பசு</string>
+    <string name="tm_buffalo">எருமை</string>
+    <string name="tm_mixed">கலப்பு</string>
+    <string name="tm_dd_mm">டிடி/எம்எம்</string>
+    <string name="tm_kg_fat">கிலோ கொழுப்பு</string>
+    <string name="tm_kg_snf">கிலோ இதர</string>
+
+</resources>

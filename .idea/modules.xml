@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aFileChooser/aFileChooser.iml" filepath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-test-app.iml" filepath="$PROJECT_DIR$/dev-test-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devApp/smartAmcu.iml" filepath="$PROJECT_DIR$/devApp/smartAmcu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryFormEditText/libraryFormEditText.iml" filepath="$PROJECT_DIR$/libraryFormEditText/libraryFormEditText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryRobotoFont/libraryRobotoFont.iml" filepath="$PROJECT_DIR$/libraryRobotoFont/libraryRobotoFont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usbSerialLibraryUSB/usbSerialLibraryUSB.iml" filepath="$PROJECT_DIR$/usbSerialLibraryUSB/usbSerialLibraryUSB.iml" />
+    </modules>
+  </component>
+</project>

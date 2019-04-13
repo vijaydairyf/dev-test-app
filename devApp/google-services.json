@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1086832467854",
+    "firebase_url": "https://smartamcu-96196.firebaseio.com",
+    "project_id": "smartamcu-96196",
+    "storage_bucket": "smartamcu-96196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086832467854:android:3ab7329120d28362",
+        "android_client_info": {
+          "package_name": "com.devApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086832467854-j3j4slthoukhjfpji5t5ehu13npv0lkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtBMtlKmBroLK2mOr8eIdpuits2ZWP5qs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

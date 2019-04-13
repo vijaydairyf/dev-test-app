@@ -1,0 +1,3 @@
+# Referenced at /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/build/intermediates/manifests/full/debug/AndroidManifest.xml:70
+-keep class com.devapp.devmain.DevAppApplication { <init>(...); }
+

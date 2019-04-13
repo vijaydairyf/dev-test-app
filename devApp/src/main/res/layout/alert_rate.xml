@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/lnData"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#104386"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Fat "
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvSnf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Snf"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Rate"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:typeface="condensed_bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvFSnf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_below="@+id/lnData"></ListView>
+
+    <LinearLayout
+        android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnCreateRateChart"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="@string/createRatechart"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnDelete"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+    </LinearLayout>
+
+    <include layout="@layout/progress_dialog_custom" />
+
+</RelativeLayout>

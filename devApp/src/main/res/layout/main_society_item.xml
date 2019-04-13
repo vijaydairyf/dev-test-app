@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Device port"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:typeface="regular" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvDriver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:typeface="regular" />
+
+        <LinearLayout
+            android:id="@+id/lvdeviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Device Name:  "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:typeface="condensed_bold" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvDeviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="SNF"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:typeface="condensed_bold" />
+        </LinearLayout>
+
+        <!--
+  <Spinner
+            android:id="@+id/spDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/Device_Name"
+            android:focusable="false"
+            android:prompt="@string/device_prompt" />
+
+        -->
+
+    </LinearLayout>
+
+</RelativeLayout>

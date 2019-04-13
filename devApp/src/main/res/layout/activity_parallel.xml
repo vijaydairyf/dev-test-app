@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_ma"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:text="MA"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_ws"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:text="WS"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_rdu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:text="RDU"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_printer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:text="PRINTER"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/EnterCenterCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rlEnterCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:background="#104386">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:id="@+id/tvEnterCodeHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Select MCC"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:typeface="condensed" />
+                </RelativeLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+
+                    android:id="@+id/tvTruckNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rlEnterCode"
+                    android:layout_centerHorizontal="true">
+
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etEnterTruckNumber"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="4dp"
+                        android:focusable="true"
+                        android:hint="Truck number"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="27sp"
+                        android:textStyle="bold"
+                        app:typeface="condensed" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/hintRoute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTruckNumber"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="Select route"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/tvSelectRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hintRoute"
+                    android:gravity="center"
+                    android:hint="Select route"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:id="@+id/hintCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSelectRoute"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="Select MCC"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/tvSelectCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hintCenter"
+                    android:dropDownHeight="120dp"
+                    android:gravity="center"
+                    android:hint="Select Center"
+                    android:maxLines="1" />
+
+
+                <TextView
+                    android:id="@+id/hintCattleType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSelectCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:singleLine="true"
+                    android:text="Select Cattle Type"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <Spinner
+                    android:id="@+id/spMilkType"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hintCattleType"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/spinner_bg"
+                    android:entries="@array/Milk_type_both"
+                    android:popupBackground="@color/strawberry_dark"
+                    android:prompt="@string/milk_prompt"></Spinner>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp">
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_selector_negative"
+                        android:padding="5dp"
+                        android:text="Cancel"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/btnSubmitCenter"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_selector_positive"
+                        android:padding="5dp"
+                        android:text="Submit"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Enter quantity -->
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/EnterQuantityCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rlEnterQuantity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:background="#104386">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:id="@+id/tvEnterQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Enter Quantity"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:typeface="condensed" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rlEnterQuantity"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+
+                        <com.eevoskos.robotoviews.widget.RobotoEditText
+                            android:id="@+id/etCenterId"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="4dp"
+                            android:focusable="true"
+                            android:hint="MCC"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+
+                        <com.eevoskos.robotoviews.widget.RobotoEditText
+                            android:id="@+id/etSmapleNumber"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="4dp"
+                            android:focusable="true"
+                            android:hint="SID"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+                        <com.eevoskos.robotoviews.widget.RobotoEditText
+                            android:id="@+id/etQuantity"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="4dp"
+                            android:focusable="true"
+                            android:hint="Quantity"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text="0.00"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+                        <com.eevoskos.robotoviews.widget.RobotoEditText
+                            android:id="@+id/etNumberOfCans"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="4dp"
+                            android:focusable="true"
+                            android:hint="Number of Cans"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text="0"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="180dp">
+
+                    <Button
+                        android:id="@+id/btnQuantityCancel"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_selector_negative"
+                        android:padding="5dp"
+                        android:text="Cancel"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/btnSubmitQuantity"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_selector_positive"
+                        android:padding="5dp"
+                        android:text="Submit"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- MA1 and MA2 Screen-->
+        <LinearLayout
+            android:id="@+id/linearMilkAnalyser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewMA1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/rlMA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <RelativeLayout
+
+                        android:id="@+id/rlHeadingMA1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:background="#104386">
+
+                        <com.eevoskos.robotoviews.widget.RobotoTextView
+                            android:id="@+id/tvMa1Header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="MA1"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnCenterAndSample1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rlHeadingMA1"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="MCC:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/tvCID1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SID:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvSID1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnFatSnf1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lnCenterAndSample1"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="FAT%:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvFat1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SNF%:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvSnf1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="2dp">
+
+                        <Button
+                            android:id="@+id/btnRetry"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_selector_negative"
+                            android:padding="5dp"
+                            android:text="Retry"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/btnSubmit"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_selector_positive"
+                            android:padding="5dp"
+                            android:text="@string/submit_and_next"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewMA2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/rlMA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+
+                        android:id="@+id/rlHeadingMA2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:background="#104386">
+
+                        <com.eevoskos.robotoviews.widget.RobotoTextView
+                            android:id="@+id/tvMa2Header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="MA2"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:typeface="condensed" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnCenterAndSample2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rlHeadingMA2"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="MCC:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvCID2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SID:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvSID2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnFatSnf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lnCenterAndSample2"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="FAT%:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvFat2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SNF%:"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvSNF2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="---"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="2dp">
+
+                        <Button
+                            android:id="@+id/btnRetry2"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_selector_negative"
+                            android:padding="5dp"
+                            android:text="Retry"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/btnSubmit2"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_selector_positive"
+                            android:padding="5dp"
+                            android:text="@string/submit_and_next"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/CollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/devices/WifiUDPDevice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/services/DeviceManagerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/server/DatabaseHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Android14.2.3Code/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/util/AdvanceUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/libraryFormEditText/src/main/java/com/andreabaccega/widget/DefaultEditTextValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/build/generated/source/buildConfig/debug/com/stellapps/usb/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/release/output.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/assets/tab-app-configurations.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/kmfcommon/AllRateChartDetailsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/kmfcommon/AllReportsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/kmfcommon/SettingActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/AmcuApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/Connectivity/ConnectivityCheck.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/ConsolidationPost/AdditionalCollectionRecordSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/ConsolidationPost/SalesCollectionRecordSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/agentfarmersplit/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/cloud/UpdateAPK.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/ChillingCenterDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/CollectionRecordDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/Dao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/DaoFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/EditRecordDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/FarmerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/LicenseDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/RateDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/SampleDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/UserDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/dbbackup/DatabaseSync.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/devicemanager/ConfigurationManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/devicemanager/DatabaseManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/devicemanager/PrinterManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/encryption/EncryptedReportActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/ConfigurationConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/ExcelConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/FarmerEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/FarmerPostEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/LicenseEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/SettingEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/entitymanager/ConfigEntityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/AfterLogInTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/EndShiftHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/ReportHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/UpdateDatabaseHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/UserType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/ma/MaManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/ChillingCollectionActivityV2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/CollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/MCCCollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/MilkCollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/SalesActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/SampleCollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/macollection/UpdatePastRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/AllDispatchReportsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/DeviceListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/FarmerScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/LauncherActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/main/UnsentRecordsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/milkline/EnterDispatchDetailsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/multipleequipments/EndShift.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/devices/TVSDevice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/devices/WifiUDPDevice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/devices/WiredDevice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/factories/DeviceFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/probers/WiredProber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/peripherals/services/DeviceManagerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/postentities/AdditionFieldEditEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/postentities/CollectionConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/rdu/RduFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/rdu/StellappsV2Rdu.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/server/AmcuConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/server/DatabaseHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/server/SessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/BootReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/CreateRateChartForSociety.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/NetworkCheck.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/NetworkReciever.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/SendDailyShiftReport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/SendEmail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/services/UpdateFarmerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/tableEntities/FarmerTable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/tableEntities/LicenseTable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/testing/PrintReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/tvsprinter/ConnectionInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/tvsprinter/CustomizedUsbPort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/tvsprinter/Sample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/usb/ReadExcel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/usb/ReadExcelFarmer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/usb/WriteExcel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AddChillingCenterActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AddFarmerDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AddUserActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllChillingCenterDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllFarmerData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllRateChartActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllSampleListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllSocietyActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllUserActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/FormatHindiLocal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/FormatPrintHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/FormatPrintRecords.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/RateChartNew.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/RestoreSmartAmcuActivty.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/UserDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/user/Util.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/GetEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/RegexInputFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/RegexTextWatcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartamcu/util/config/AppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartcc/entityandconstants/SmartCCUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartcc/report/FilterMemberReportActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartcc/report/MccReportActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/smartcc/report/MemberReportActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/syncapp/EntityCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/syncapp/SyncAppUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/java/com/stellapps/syncapp/service/BTPService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/acitivity_device_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_detail_report.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_encrypted.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_enter_dispatch_details.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_launcher.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_member_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/activity_scanner_land.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/alert_print.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/alert_settiings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/allusbdevice_landscape.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/layout/sales_activity_landscape.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/smartAmcu/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNDDBcode/NddbCode/smartAmcu/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNDDBcode/NddbCode/smartAmcu/src/main/java/com/stellapps/smartamcu/main/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNDDBcode/NddbCode/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AllFarmerData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/dao/FarmerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/FarmerEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/entity/FarmerPostEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/helper/ReportHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/httptasks/PostCollectionRecordsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/main/ReportsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/main/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/server/DatabaseHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/services/WriteReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/services/WriteRecordReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/tableEntities/FarmerTable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/usb/ReadExcelFarmer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/usb/WriteExcel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/user/AddFarmerDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartamcu/user/Util.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GenericDefaultBranch/smartamcu-tab-app/smartAmcu/src/main/java/com/stellapps/smartcc/report/MemberReportActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/hatsun/java/com/stellapps/smartamcu/hatsun/configurable/MilkCollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/abc/TankerCollectionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/helper/UpdateDatabaseHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/httptasks/SMSHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/main/FarmerScannerActivityV2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/postdata/CollectionRecordSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/server/DatabaseHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../HatsunCode/Hatsun_amcu/smartAmcu/src/main/java/com/stellapps/services/SendSMSService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

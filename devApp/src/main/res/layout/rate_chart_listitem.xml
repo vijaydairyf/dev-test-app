@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_bg">
+
+    <LinearLayout
+        android:id="@+id/lnData"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvSnf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Snf"
+            android:textColor="@color/black"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Fat"
+            android:textColor="@color/black"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Rate"
+            android:textColor="@color/black"
+            app:typeface="condensed_bold" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/lnData"
+        android:layout_margin="3dp"
+        android:background="@color/black" />
+
+</RelativeLayout>

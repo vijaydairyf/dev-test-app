@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/dailyshift"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lnSelectShiftAndMA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Spinner
+            android:id="@+id/spSelectMilkTypeColl"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:entries="@array/Milk_type"
+            android:prompt="@string/milk_prompt" />
+
+        <Spinner
+            android:id="@+id/spSelectShiftColl"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:entries="@array/Select_shift"
+            android:prompt="@string/select_shift" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlEnterCenterId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnSelectShiftAndMA"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp">
+
+        <com.andreabaccega.widget.FormEditText
+            android:id="@+id/etBarcode"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Enter center Id"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:emptyAllowed="false" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:focusable="true"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:typeface="condensed_bold">
+
+            <requestFocus />
+        </com.eevoskos.robotoviews.widget.RobotoButton>
+    </LinearLayout>
+
+</RelativeLayout>

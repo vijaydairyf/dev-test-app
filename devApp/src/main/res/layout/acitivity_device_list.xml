@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_setUpProgressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/screen_login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Setting Up Peripherals..."
+            android:textColor="@color/grey"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_deviceListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/demoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/btnDemoText"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_title"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progressBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/demoTitle"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
+            android:text="@string/refreshing"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBarTitle"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true"
+            android:padding="8dp" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:background="#eeeeee" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/separatorOne"
+            android:layout_below="@+id/separator">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <CheckedTextView
+                    android:id="@+id/port1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:checkMark="@drawable/uncheck_box"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="port1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <CheckedTextView
+                    android:id="@+id/port2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:checkMark="@drawable/uncheck_box"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="port2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <CheckedTextView
+                    android:id="@+id/port3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:checkMark="@drawable/uncheck_box"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="port3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <CheckedTextView
+                    android:id="@+id/port4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:checkMark="@drawable/uncheck_box"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="port4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <CheckedTextView
+                    android:id="@+id/port5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:checkMark="@drawable/uncheck_box"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="port5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tvNoDeviceFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No device found!"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <View
+            android:id="@+id/separatorOne"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+            android:background="#BDBDBD"
+            android:padding="8dp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <com.eevoskos.robotoviews.widget.RobotoButton
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector_positive"
+                android:enabled="true"
+                android:focusable="true"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:typeface="condensed_bold" />
+        </LinearLayout>
+
+        <include layout="@layout/progress_dialog_custom" />
+    </RelativeLayout>
+
+</RelativeLayout>

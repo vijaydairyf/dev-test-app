@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Enter Weighing IP Address"
+        android:textColor="#00b4ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <com.eevoskos.robotoviews.widget.RobotoEditText
+        android:id="@+id/etIpAddress"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLogo"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:layout_marginRight="4dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="IP Address"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:typeface="condensed" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/etIpAddress"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Connect"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

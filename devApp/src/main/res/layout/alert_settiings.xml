@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/configuration"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <Button
+            android:id="@+id/btnImport"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Import"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutSociety"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:id="@+id/lnButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlMorningStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMorningStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/morning_start"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMorningStart"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/tvMorningStart"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="12:00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMorning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMorningsession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/morning_session"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMorning"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/tvMorningsession"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="12:00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlEveningStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvEveningStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/evening_start"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etEveningStart"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/tvEveningStart"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="12:00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlEvening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvEvening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/evening_session"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etEvening"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/tvEvening"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="12:00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </RelativeLayout>
+
+            <!--Send mails -->
+
+            <RelativeLayout
+                android:id="@+id/rlSendEmails"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSendEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/send_mails"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlEmails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSendEmails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/send_mails"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/CheckSendEmail"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvSendEmails"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlMsgLimit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMessageLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/message_limit"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlEnableSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvEnableSMS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="3dp"
+                    android:text="@string/message_limit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkEnableSMS"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvEnableSMS"
+                    android:checked="false"></CheckBox>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlLimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMessagLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/message_limit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMessageLimit"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/tvMessagLimit"
+                    android:focusable="true"
+                    android:hint="5"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </RelativeLayout>
+
+            <!-- Rejectioin criteria -->
+
+            <RelativeLayout
+                android:id="@+id/rlReject"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRejectionHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/rejection_Summ"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rlMinFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMinFat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/min_fat"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMinFat"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="2.5"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <CheckBox
+                    android:id="@+id/CheckMinFat"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:visibility="gone"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lrMinSnf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMinSnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/min_snf"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMinSnf"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:cursorVisible="true"
+                    android:focusable="false"
+                    android:hint="8.5"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <CheckBox
+                    android:id="@+id/CheckMinSnf"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:visibility="gone"></CheckBox>
+            </LinearLayout>
+
+            <!-- Max fat and snf -->
+
+            <LinearLayout
+                android:id="@+id/rlMaxFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMaxFat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/max_fat"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMaxFat"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="14.0"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <CheckBox
+                    android:id="@+id/CheckMaxFat"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:visibility="gone"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lrMaxSnf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMaxSnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/max_snf"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMaxSnf"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:cursorVisible="true"
+                    android:focusable="false"
+                    android:hint="14.0"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <CheckBox
+                    android:id="@+id/CheckMaxSnf"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:visibility="gone"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lrClr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvClr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/min_clr"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etClr"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:hint="25.0"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <CheckBox
+                    android:id="@+id/CheckClr"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlClrCalculation"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvClrCalc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/clr_calculation"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etSnfConstant"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="4"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" * SNF - "
+                    android:textColor="@color/black" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etFatConstant"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nextFocusRight="@+id/etConstant"
+                    android:layout_weight="1"
+
+                    android:hint=".22"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" * FAT - "
+                    android:textColor="@color/black" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etConstant"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint=".72"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlRatechartParam"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRateChartParam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/ratechart_param"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rlFatCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvFatCheck"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/fat"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/CheckIsFat"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvFatCheck"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlSnfCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvSnfCheck"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/snf"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/CheckIsSnf"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvSnfCheck"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlClrCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvClrCheck"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/clr"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/CheckIsClr"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvClrCheck"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Milk analyzer -->
+
+            <RelativeLayout
+                android:id="@+id/rlMilkAnayzer"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectMilk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_milkanalyzer"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rlMALM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvSelectLm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/lactoscan"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkLM"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlEkoMilk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvEcoselect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/maem"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkIsEcomilk"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Support unregister user -->
+
+            <RelativeLayout
+                android:id="@+id/rlUnregUser"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectunreg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/support_unregister_user"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnUnregistered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlUnreg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvUnregUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/support_unregister_user"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkUnregUser"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Support unregister user -->
+
+            <RelativeLayout
+                android:id="@+id/rlSupportKeyboard"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSupportKeyBoard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/support_keypad"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlsupportKey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvSupportKeyboard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/support_keypad"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkSupportKey"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Create and Edit rateChart -->
+
+            <RelativeLayout
+                android:id="@+id/rlCreateAndEditRateChart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/createAndEditRatechart"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlCreateEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvCreateAndEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/createAndEdit"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkCreateAndEdit"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+            <!-- Select ratechart -->
+
+            <RelativeLayout
+                android:id="@+id/rlSelectRatechart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectRatechart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_ratehcart"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spMilkType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_type"
+                    android:prompt="@string/milk_prompt" />
+
+                <Spinner
+                    android:id="@+id/spRatechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_type"
+                    android:prompt="@string/rateChart_prompt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvCow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="COW"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spRatechartCow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_type"
+                    android:prompt="@string/rateChart_prompt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvBufalo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="BUFFALO"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spRatechartBuff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_type"
+                    android:prompt="@string/rateChart_prompt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvMis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="MIXED"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spRatechartMIX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_type"
+                    android:prompt="@string/rateChart_prompt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnRateDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etValidFrom"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="Valid from.."
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etValidTill"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="Valid till.."
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+            </LinearLayout>
+
+            <!-- set milkotester -->
+
+            <RelativeLayout
+                android:id="@+id/rlSetMilkoTester"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectMilko"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_milkanalyzer"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spMaParity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/MA_parity"
+                    android:prompt="@string/select_parity" />
+
+                <Spinner
+                    android:id="@+id/spMaDatabits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/MA_data_bits"
+                    android:prompt="@string/select_databits" />
+
+                <Spinner
+                    android:id="@+id/spMaStopbits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/MA_stop_bits"
+                    android:prompt="@string/select_databits" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spMilkBaud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Set_baudrate"
+                    android:prompt="@string/select_Baudrate" />
+
+                <Spinner
+                    android:id="@+id/spMA1MilkType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/MA_Milk_type"
+                    android:prompt="@string/milk_prompt"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spMilkAnaly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_Analyser"
+                    android:prompt="@string/select_milkanalyzer" />
+            </LinearLayout>
+
+            <!-- set milkotester second -->
+
+            <RelativeLayout
+                android:id="@+id/rlSetMilkoTesterSec"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectMilkoSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_milkanalyzer_Sec"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnSecondMilk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Spinner
+                    android:id="@+id/spMilkBaudSec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Set_baudrate"
+                    android:prompt="@string/select_Baudrate" />
+
+                <Spinner
+                    android:id="@+id/spMA2MilkType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/MA_Milk_type"
+                    android:prompt="@string/milk_prompt" />
+
+                <Spinner
+                    android:id="@+id/spMilkAnalySec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Milk_Analyser"
+                    android:prompt="@string/select_milkanalyzer" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnMilkAnalyserDetails"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etMilkAnalayserName"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:hint="Milk analyser"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <Button
+                    android:id="@+id/btnMilkoAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="Add" />
+            </LinearLayout>
+
+            <!-- set printer -->
+
+            <RelativeLayout
+                android:id="@+id/rlSetPrinter"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectPrinter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_printer"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spPrinterBaud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Set_baudrate"
+                    android:prompt="@string/select_Baudrate" />
+
+                <Spinner
+                    android:id="@+id/spPrinter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Printer"
+                    android:prompt="@string/select_printer" />
+            </LinearLayout>
+
+            <!-- set rdu -->
+
+            <RelativeLayout
+                android:id="@+id/rlSetRdu"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectRdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_rdu"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spRdubaud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Set_baudrate"
+                    android:prompt="@string/select_Baudrate" />
+
+                <Spinner
+                    android:id="@+id/spRDU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/RDU"
+                    android:prompt="@string/select_rdu" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlSelectOption"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_display"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnSelectaddedWater"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/amount"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkAmount"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:checked="true"
+                        android:gravity="right"></CheckBox>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvAddedWater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/added_water"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkAddedWater"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:checked="false"></CheckBox>
+                </RelativeLayout>
+            </LinearLayout>
+            <!--Setting multiple MILK ANalyzer-->
+            <RelativeLayout
+                android:id="@+id/rlsetMultipleMA"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="visible">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMultipleMA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Multiple Milk Analyzer"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnMultipleMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvlnMultipleMA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Enable Multiple Milk Analyzer"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkMultipleMA"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:checked="false" />
+            </LinearLayout>
+            <!-- set Weighing -->
+
+            <RelativeLayout
+                android:id="@+id/rlsetWeighing"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvWeighing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_weighing_Scale"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvWeighingDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/select_weighing_Scale"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:visibility="gone"
+                app:typeface="condensed" />
+
+            <LinearLayout
+                android:id="@+id/layoutWSSetting"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preffix"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    />
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etPreffix"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:maxLength="10"
+                    android:textStyle="normal"
+                    style="@style/EditTextStyle"
+                    app:typeface="condensed"
+                                        />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suffix"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    />
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etSuffix"
+                    android:layout_width="200dp"
+                    style="@style/EditTextStyle"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:maxLength="10"
+                    android:textStyle="normal"
+                    app:typeface="condensed"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/separator"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    />
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etSeparator"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    style="@style/EditTextStyle"
+                    android:textSize="14sp"
+                    android:maxLength="10"
+                    android:textStyle="normal"
+                    app:typeface="condensed"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spWeigingbaud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Set_baudrate"
+                    android:prompt="@string/select_Baudrate" />
+
+                <Spinner
+                    android:id="@+id/spWeighing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/WEIGHING"
+                    android:prompt="@string/select_weighing_Scale" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlWeighingScaleLimit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvWeighingScaleLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/weighing_limit_heading"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnWeightLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvWeightLimit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:hint="@string/weighing_limit_text"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etWeighingLimit"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:hint="@string/weighing_limit"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlSelectUSB"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectUSB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_usbtype"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvUSB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_gateWay"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spUsbGateWay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/USBGATEWAY"
+                    android:prompt="@string/select_gateWay" />
+            </LinearLayout>
+
+            <!-- Round off values -->
+
+            <RelativeLayout
+                android:id="@+id/rlRoundOff"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRoundOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_roundOff"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Round-Off"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWeighingRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Weight"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spWeighingRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/DecimalRoundOff"
+                    android:prompt="@string/select_weighing" />
+
+                <CheckBox
+                    android:id="@+id/CheckWeightRound"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:checked="true"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvAmountRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Amount"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spAmountRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/DecimalRoundOff"
+                    android:prompt="@string/select_weighing" />
+
+                <CheckBox
+                    android:id="@+id/CheckAmountRound"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:checked="true"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvRateRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Rate"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spRateRound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/DecimalRoundOff"
+                    android:prompt="@string/select_weighing" />
+
+                <CheckBox
+                    android:id="@+id/CheckRateRound"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:checked="true"></CheckBox>
+            </LinearLayout>
+
+            <!-- Change milktype -->
+
+            <RelativeLayout
+                android:id="@+id/rlChangeMilkType"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvChangeMilktype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/change_milktype"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvChangeMilkText"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/change_milktype_Buff"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/lnChangeMilktype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etBuffSnf"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:hint="snf"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etBuffFat"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:hint="fat"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <TextView
+                    android:id="@+id/tvBuff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Buffalo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlImportRateChart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvImportRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/importRateChart"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlRateBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvImportexcel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/importrateviaExcel"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/CheckImportRatechart"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_toRightOf="@+id/tvImportexcel"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+            <!--  Configure shut down delay-->
+            <RelativeLayout
+                android:id="@+id/rlShutdowndelay"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvShutdowndealy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/shutdown_delay"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvShutDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/choose_delay"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spShutDownDelay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/ShutDown_Delay"
+                    android:prompt="@string/choose_delay" />
+            </LinearLayout>
+
+            <!--/Bonus stuff/-->
+            <RelativeLayout
+                android:id="@+id/rlEnableBonus"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvBonus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/setBonus"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnBounusDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etBonusStart"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="Valid from.."
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etBonusEnd"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:hint="Valid till.."
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnBonusInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/BonusPerLiterMilk"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etBonusperLiter"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:hint="0.00"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:visibility="gone"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/EnableBonus"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/checkEnableBonus"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvSendEmails"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+            </LinearLayout>
+
+            <!-- Allow ratechart access import to operator-->
+
+            <RelativeLayout
+                android:id="@+id/rlAllowAccess"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRateImpaccess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/ratechart_import_access"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlRcAccess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRateAccess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/ratechart_import_access_operator"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkRateAccess"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvRateAccess"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+
+            <!-- This is for manual entry for MA and WS-->
+
+
+            <RelativeLayout
+                android:id="@+id/rlManuallEntry"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvManualTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/manual_header"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMaManual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMaManual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/ma_manual"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkMaManual"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvMaManual"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlWSManual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvWsManual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/ws_manual"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkWsManual"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvWsManual"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlAllowSimlock"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvallowSim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/allow_simlock"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlSimlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvsiml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/allow_simlock"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkAllowSimlock"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvsiml"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlConversion"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvConversion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/conversion_factor"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnConversion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/conversion_factor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etConversionFactor"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:hint="0.00"
+                    android:inputType="numberDecimal"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+            </LinearLayout>
+
+
+            <!--  Configure farm digit-->
+            <RelativeLayout
+                android:id="@+id/rlFarmDigit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvFarmd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/farmdigitLength"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnFarmerDigit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvFarmDigit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/farmdigitLength"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spFarmerDigit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/Farmer_Length"
+                    android:prompt="@string/choose_length" />
+            </LinearLayout>
+
+
+            <!-- Sales configuration-->
+
+            <!--  Configure farm digit-->
+            <RelativeLayout
+                android:id="@+id/rlSales"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSalesInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/salesParameter"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnSalesAutoManual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvEnableManual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/salesManualEnable"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/checkEnableOrDisableManual"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnEnableSales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvEnableSales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/salesEnable"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/checkEnableDisableSales"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnCowRateSales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvCowrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/cowrate"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etCowRate"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="20.00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnBuffRateSales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvBuffRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/buffrate"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etBuffRate"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="20.00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnSalesMixRate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvMixRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/mixedRate"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etMixedRate"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="20.00"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnSalesDisplayFS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvDisplayFS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/displayFS"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkDisplayFS"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+            </LinearLayout>
+
+
+            <!-- Sales configuration-->
+
+            <!--  Configure for print-->
+            <RelativeLayout
+                android:id="@+id/rlPrintA4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvPrintA4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/printHP"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnforA4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvForA4print"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/enableHP"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkEnableA4"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+            </LinearLayout>
+
+
+            <!--  Enable bonus in rdu-->
+            <RelativeLayout
+                android:id="@+id/rlEnableBonusRdu"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvEnableBonusrduHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/printHP"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnEnableBonus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvEnableBonusRdu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/enableHP"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkEnableBonusRdu"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:checked="false"></CheckBox>
+            </LinearLayout>
+
+            <!-- Enable FAT SNF & CLR Option-->
+            <RelativeLayout
+                android:id="@+id/rlFatSnfClr"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="visible">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvEnableFatSnfClr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Milk Quality Type"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnFatSnfClr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvFatSNF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Collection Center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/radio_collection"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_fatsnf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:checked="true"
+                        android:text="FAT and SNF"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_fatclr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="FAT and CLR"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnChillingFatSnfClr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvcenterFatSNF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Chilling Center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/radio_chilling_collection"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_chilling_fatsnf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:checked="true"
+                        android:text="FAT and SNF"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_chillinng_fatclr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="FAT and CLR"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/selectAllQuality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSelectAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="View FAT , SNF and CLR "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <CheckBox
+                    android:id="@+id/checkSelectAllMilkQuality"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvSelectAll"
+                    android:checked="false"></CheckBox>
+            </RelativeLayout>
+
+            <!--SID setting-->
+            <RelativeLayout
+                android:id="@+id/rlSID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="visible">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSIDHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Serial ID"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnSID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvSID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="Starting Serial Id"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.andreabaccega.widget.FormEditText
+                    android:id="@+id/etAlertSID"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textSize="20sp"
+                    app:emptyAllowed="false" />
+
+                <TextView
+                    android:id="@+id/textSid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="Note:Don't change in mid of session"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--Toggle empty and fill can-->
+            <RelativeLayout
+                android:id="@+id/rlToggle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="visible">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvToggleHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Empty Fill can"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/lnToggle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvAllowToggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Allow Milk Can Toggle"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkTogglePermission"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:checked="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnToggle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvMinWeightFill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Minimum weight for fill can (KG or Lts.)"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.andreabaccega.widget.FormEditText
+                        android:id="@+id/etMinWeightFill"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:focusable="true"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:text="50"
+                        android:textSize="20sp"
+                        app:emptyAllowed="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnToggle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvMaxWeightEmpty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Maximum weight for Empty can (KG or Lts.)"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.andreabaccega.widget.FormEditText
+                        android:id="@+id/etMaxWeightEmpty"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:focusable="true"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:text="5"
+                        android:textSize="20sp"
+                        app:emptyAllowed="false" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlUpdateRecord"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/table_row_header"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvUpdateRecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Edit and update old record"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lnUpdateRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <!--  <LinearLayout
+                      android:id="@+id/lnUpdateRecord1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      android:orientation="horizontal"
+                      android:visibility="visible">
+
+                      <TextView
+                          android:id="@+id/tvUpdateRecordPermission"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="10dp"
+                          android:textColor="@color/black"
+                          android:text="Edit previous collection      "
+                          android:textSize="14sp"
+                          android:textStyle="bold" />
+
+                      <CheckBox
+                          android:id="@+id/checkUpdateRecordPermission"
+                          style="@style/CheckBoxStyle"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="20dp"
+                          android:checked="false"/>
+                  </LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/lnUpdateRecord2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvUpdateRecordOperatorPremission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Grant Operator edit permission"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkUpdateRecordOperatorPremission"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:checked="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnUpdateRecord3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvlnUpdateRecordnumberofShift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Number of shift"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.andreabaccega.widget.FormEditText
+                        android:id="@+id/etupdaterecordNumberofShift"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textSize="20sp"
+                        app:emptyAllowed="false" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSociety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Save"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/progress_dialog_custom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devapp.devmain.main.AllDispatchReportsActivity">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:background="#104386"
+        android:gravity="center"
+        android:text="Periodic Dispatch Reports"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:typeface="condensed" />
+
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="horizontal">
+
+        <com.eevoskos.robotoviews.widget.RobotoEditText
+            android:id="@+id/et_start_date"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:hint="Start date"
+            android:singleLine="true"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoEditText
+            android:id="@+id/et_end_date"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:hint="End date"
+            android:singleLine="true"
+            app:typeface="condensed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/date_layout"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+
+        <Button
+            android:id="@+id/btn_reports"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:onClick="displayReports"
+            android:text="Get Dispatch Reports"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

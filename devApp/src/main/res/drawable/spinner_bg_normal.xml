@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 2dp Shadow -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/vanilla_cream" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+
+    <!-- White Top color -->
+    <item android:bottom="4px">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/vanilla_cream" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+
+    <item>
+        <bitmap
+            android:gravity="right|center"
+            android:src="@drawable/circle_down" />
+    </item>
+
+
+</layer-list>

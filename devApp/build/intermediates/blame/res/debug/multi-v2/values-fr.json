@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Application/Android projects/git_projects/dev-test-app/devApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+            "map": [
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,402,517,628,710,816,946,1056,1168,1271,1382,1489,1596",
+                        "endColumns": "110,114,110,81,105,129,109,111,102,110,106,106,121",
+                        "endOffsets": "397,512,623,705,811,941,1051,1163,1266,1377,1484,1591,1713"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,524,630,760,870,982,1085,1196,1303,1410",
+                        "endColumns": "110,114,110,81,105,129,109,111,102,110,106,106,121",
+                        "endOffsets": "211,326,437,519,625,755,865,977,1080,1191,1298,1405,1527"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/res/values-fr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "223",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2817",
+                        "endColumns": "223",
+                        "endOffsets": "3036"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "5529",
+                        "endColumns": "100",
+                        "endOffsets": "5625"
+                    }
+                },
+                {
+                    "source": "/Volumes/Application/Android projects/git_projects/dev-test-app/aFileChooser/build/intermediates/packaged_res/debug/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,176,264",
+                        "endColumns": "63,56,87,80",
+                        "endOffsets": "114,171,259,340"
+                    },
+                    "to": {
+                        "startLines": "15,34,43,47",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1532,4487,5245,5630",
+                        "endColumns": "63,56,87,80",
+                        "endOffsets": "1591,4539,5328,5706"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/res/values-fr/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,561,689,796,1026,1157,1304,1442,1679,1789,2005,2139,2358,2563,2662,2755",
+                        "endColumns": "103,211,127,106,229,130,146,137,236,109,215,133,218,204,98,92,108",
+                        "endOffsets": "348,560,688,795,1025,1156,1303,1441,1678,1788,2004,2138,2357,2562,2661,2754,2863"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1596,1704,1916,2048,2159,2389,2524,2675,3041,3278,3392,3608,3746,3965,4174,4277,4374",
+                        "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
+                        "endOffsets": "1699,1911,2043,2154,2384,2519,2670,2812,3273,3387,3603,3741,3960,4169,4272,4369,4482"
+                    }
+                },
+                {
+                    "source": "/Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/packaged_res/debug/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,142,217,298,387,454,563,677,756,883",
+                        "endColumns": "86,74,80,88,66,108,113,78,126,68",
+                        "endOffsets": "137,212,293,382,449,558,672,751,878,947"
+                    },
+                    "to": {
+                        "startLines": "35,36,37,38,39,40,41,42,44,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4544,4631,4706,4787,4876,4943,5052,5166,5333,5460",
+                        "endColumns": "86,74,80,88,66,108,113,78,126,68",
+                        "endOffsets": "4626,4701,4782,4871,4938,5047,5161,5240,5455,5524"
+                    }
+                }
+            ]
+        }
+    ]
+}

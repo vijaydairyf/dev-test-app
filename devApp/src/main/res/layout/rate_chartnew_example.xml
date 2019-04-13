@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <ImageView
+            android:id="@+id/ivAddRule"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back_bg"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/add_button" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Rate Chart "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <ImageView
+            android:id="@+id/ivRemoveRule"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_bg"
+            android:contentDescription="@string/app_name"
+            android:focusable="true"
+            android:src="@drawable/remove_btn" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutSociety"
+        android:layout_below="@+id/header"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlReject"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/table_row_header"
+            android:visibility="gone">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvRejectionHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/base_rate"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:typeface="condensed" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/fat"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/snf"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/clr"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/base_rate"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:typeface="condensed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rlFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/etFat"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/default_fat"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp"
+                app:emptyAllowed="false" />
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/etSnf"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/default_snf"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp"
+                app:emptyAllowed="false" />
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/etClr"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/default_clr"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp"
+                app:emptyAllowed="false" />
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/etBaseRate"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/default_baserate"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp"
+                app:emptyAllowed="false" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlRateCalculation"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/table_row_header">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvRateCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/rate_calculation"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:typeface="condensed" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvRateChartList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSociety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/create"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/cancel"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <include layout="@layout/progress_dialog_custom" />
+
+</RelativeLayout>

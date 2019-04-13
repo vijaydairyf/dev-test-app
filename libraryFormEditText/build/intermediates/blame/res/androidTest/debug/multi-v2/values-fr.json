@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fr/values-fr.xml",
+            "map": [
+                {
+                    "source": "/Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/packaged_res/debug/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,142,217,298,387,454,563,677,756,883",
+                        "endColumns": "86,74,80,88,66,108,113,78,126,68",
+                        "endOffsets": "137,212,293,382,449,558,672,751,878,947"
+                    }
+                }
+            ]
+        }
+    ]
+}

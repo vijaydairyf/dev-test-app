@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:background="#086A87">
+
+        <ImageView
+            android:id="@+id/headerimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/Head"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Milk Analyser"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/selectMShift"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/selectEShift"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_toLeftOf="@+id/selectEShift"
+            android:background="@color/btnblueNormal"
+            android:onClick="goToMorningShift"
+            android:padding="3dp"
+            android:text="Morning Shift"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/selectEShift"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/Head"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@color/btnblueNormal"
+            android:onClick="goToEveningShift"
+            android:padding="3dp"
+            android:text="Evening Shift"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No data available for current shift \n Please select other shift from top Menu"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_1"
+        android:layout_marginBottom="70dp"
+        android:cacheColorHint="@color/white"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/findSelected"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#104386"
+        android:focusable="true"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

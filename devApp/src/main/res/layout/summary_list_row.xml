@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/coolection_summary1"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Truck Number: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/t_num"
+            android:ellipsize="end"
+            android:paddingStart="3dp"
+            android:text="nitin1-"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/quan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row1"
+            android:layout_marginLeft="33dp"
+            android:text="Quantity: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dashboard_row1"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/quan"
+            android:text="nitin2-"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/issue_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dashboard_row2"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Lifting Date: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row1"
+            android:layout_alignTop="@+id/issue_date"
+            android:text="nitin3"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row3"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Shift: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row1"
+            android:layout_alignTop="@+id/shift"
+            android:text="nitin4"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row4"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Amount: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row4"
+            android:layout_alignTop="@+id/amount"
+            android:text="nitin5"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/purity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row5"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Purity: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row5"
+            android:layout_alignTop="@+id/purity"
+            android:text="nitin6"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/milktype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row6"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Milk Type: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row2"
+            android:layout_alignTop="@+id/milktype"
+            android:text="nitin7"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/avgFat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row7"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Avg FAT: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboard_row7"
+            android:layout_alignTop="@+id/avgFat"
+            android:text="nitin8"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/avgSnf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row8"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Avg SNF: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/dashboard_row2"
+            android:layout_alignTop="@+id/avgSnf"
+            android:text="nitin9"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/avgRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/dashboard_row9"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Avg Rate: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard_row10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/dashboard_row1"
+            android:layout_alignTop="@+id/avgRate"
+            android:text="nitin10"
+            android:textColor="@color/textHeadingColor"
+            android:textSize="20dp" />
+
+        <!--<CheckBox
+            android:id="@+id/chekTruck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TruckSheet received"
+            android:layout_below="@+id/close_date"
+            android:layout_alignLeft="@+id/close_date" />-->
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_dark" />
+
+</LinearLayout>

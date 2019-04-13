@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_shift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_milk_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_fat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_snf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+        <!-- <com.eevoskos.robotoviews.widget.RobotoTextView
+             android:id="@+id/tv_cans"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textColor="@color/black"
+             android:textSize="12sp"
+             android:textStyle="bold"
+             app:typeface="condensed" />-->
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_coll_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="25"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_sold_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tv_measured_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

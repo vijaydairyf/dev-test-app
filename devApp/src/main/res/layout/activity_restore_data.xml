@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/restore_data"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnForgotOperator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/forgot_operator_password"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/lnforgotOperator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etEnterOperatorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="User Id...." />
+
+            <Button
+                android:id="@+id/btnsubmitOperator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnForgotManager"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/forgot_manager_password"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/lnForgetManager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etEntermanager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="User Id...." />
+
+            <Button
+                android:id="@+id/btnSubmitManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnResotreAllUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/restore_all_user"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnDeleteRateCharts"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="@string/delete_all_ratecharts"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/lnDeleteRateChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etDeleteRateChart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Password.."
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnsubmitPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

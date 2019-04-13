@@ -1,0 +1,8 @@
+-keep com.stellapps.smartamcu.httptasks.BackgroundTasksMgr.class
+-keep com.stellapps.smartamcu.httptasks.CommunicationService.class
+-keep com.stellapps.smartamcu.httptasks.PostCollectionRecordsService.class
+-keep com.stellapps.smartamcu.httptasks.PostFarmerRecords.class
+-keep com.stellapps.smartamcu.httptasks.Task.class
+-keep com.stellapps.smartamcu.httptasks.TaskScheduler.class
+-keep com.stellapps.smartamcu.httptasks.SSLContextFactory.class
+-keep com.stellapps.smartamcu.httptasks.SSLContextCreationException.class

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd">
+
+    <ImageView
+        android:id="@+id/ivsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/splashlargelogo" />
+
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+        android:id="@+id/tvversionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvCopyRight"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="3dp"
+        android:text="Version :"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:typeface="condensed" />
+
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+        android:id="@+id/tvCopyRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="3dp"
+        android:text="@string/copyright"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:typeface="condensed" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Enter user name and password"
+        android:textColor="#00b4ff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editEmail"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLogo"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        app:emptyAllowed="false"
+        app:testType="email" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editPwd"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmail"
+        android:ems="10"
+        android:hint="Device password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColorHint="@color/grey"
+        app:emptyAllowed="false"
+        app:testType="alphaNumeric" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/edithyperLink"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPwd"
+        android:ems="10"
+        android:hint="Set server.."
+        android:singleLine="true"
+        app:emptyAllowed="false"
+        app:testType="webUrl" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editSIMPassword"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edithyperLink"
+        android:ellipsize="end"
+        android:ems="10"
+        android:hint="SIM unlock password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColorHint="@color/grey"
+        app:emptyAllowed="true"
+        app:testType="numeric" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/editSIMPassword"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnCanc"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

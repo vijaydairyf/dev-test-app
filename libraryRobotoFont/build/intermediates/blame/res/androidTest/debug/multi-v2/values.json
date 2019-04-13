@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Application/Android projects/git_projects/dev-test-app/libraryRobotoFont/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Volumes/Application/Android projects/git_projects/dev-test-app/libraryRobotoFont/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1346",
+                        "endLines": "23,28",
+                        "endColumns": "11,48",
+                        "endOffsets": "975,1390"
+                    }
+                }
+            ]
+        }
+    ]
+}

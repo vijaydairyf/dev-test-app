@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical">
+
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+        android:id="@+id/tvFarmerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Farmer name"
+        android:textColor="@color/black" />
+
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+        android:id="@+id/tvFarmerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Farmer ID"
+        android:textColor="@color/black" />
+
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/user"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+int attr typeface 0x7f040001
+int id black 0x7f0c0001
+int id black_italic 0x7f0c0002
+int id bold 0x7f0c0003
+int id bold_italic 0x7f0c0004
+int id condensed 0x7f0c0005
+int id condensed_bold 0x7f0c0006
+int id condensed_bold_italic 0x7f0c0007
+int id condensed_italic 0x7f0c0008
+int id italic 0x7f0c0009
+int id light 0x7f0c000a
+int id light_italic 0x7f0c000b
+int id medium 0x7f0c000c
+int id medium_italic 0x7f0c000d
+int id regular 0x7f0c000e
+int id slab_bold 0x7f0c000f
+int id slab_light 0x7f0c0010
+int id slab_regular 0x7f0c0011
+int id slab_thin 0x7f0c0012
+int id thin 0x7f0c0013
+int id thin_italic 0x7f0c0014
+int raw roboto_condensed 0x7f140001
+int raw roboto_condensed_bold 0x7f140002
+int raw roboto_regular 0x7f140003
+int string app_name 0x7f150001
+int[] styleable RobotoAutoCompleteTextView { 0x7f040001 }
+int styleable RobotoAutoCompleteTextView_typeface 0
+int[] styleable RobotoButton { 0x7f040001 }
+int styleable RobotoButton_typeface 0
+int[] styleable RobotoEditText { 0x7f040001 }
+int styleable RobotoEditText_typeface 0
+int[] styleable RobotoTextView { 0x7f040001 }
+int styleable RobotoTextView_typeface 0

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Milk analyser"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnAutoManual"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_selector_positive"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Auto "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone"
+            app:typeface="condensed_bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/separator"
+        android:layout_below="@+id/header"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1">
+
+            <TableRow
+                android:id="@+id/trClr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text=" CLR "
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etClr"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </TableRow>
+
+
+            <!-- Farmer Id -->
+
+            <TableRow
+                android:id="@+id/trFarmId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvFarmerId"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/farmer_id"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etFarmerId"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/farmer_name"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etFarmerName"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/trSnf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvFatAuto"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/fat"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etFat"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvSnfAuto"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/snf"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etSnf"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trMilkWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvMilkWeight"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/milk_weight"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etMilkweight"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvRate"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/rate"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etRate"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:id="@+id/tvAmount"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:padding="@dimen/table_row_padding"
+                    android:text="@string/amount"
+                    app:typeface="condensed" />
+
+                <com.eevoskos.robotoviews.widget.RobotoEditText
+                    android:id="@+id/etAmount"
+                    style="@style/EditTextStyle"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:background="#BDBDBD"
+        android:padding="8dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnNext"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone"
+            app:typeface="condensed_bold" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnReject"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Reject"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:typeface="condensed_bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

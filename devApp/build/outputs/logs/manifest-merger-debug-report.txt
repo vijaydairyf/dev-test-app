@@ -1,0 +1,1806 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+MERGED from [:aFileChooser] /Volumes/Application/Android projects/git_projects/dev-test-app/aFileChooser/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-24:12
+MERGED from [:libraryRobotoFont] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryRobotoFont/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:usbSerialLibraryUSB] /Volumes/Application/Android projects/git_projects/dev-test-app/usbSerialLibraryUSB/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:libraryFormEditText] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:23.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.0.aar/1f60902610f403a090f67e9b36a2a51d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:gridlayout-v7:22.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-22.0.0.aar/34d12c25849096b352d4aafa27b7d87b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/design-22.2.0.aar/8663516e34ceff71cbcf1d22fe3e05fe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/d24c19379ca00c4e89b024960b7f8108/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/84ab4ecf52af5afadbb18c8c80f3ce46/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/d50af9d6f1c6dc9eca8db6fb2a8d7218/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/80b2d478dd2e028f33116b74203564e2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/d5f6849990c9d58bfa23f85c542b2eeb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0bc4ee660f032841b399a9106bf04d01/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8f0ebf9813ddf4910640bc52cf91ec57/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.0-beta4.aar/c3c1611dd2de2743d48251aef9f0279e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a73ede546bee5d17fd8ec39c52b39b51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:22:1-33:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5248856e5d867d7aab5f91e471da30d1/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:17:1-30:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:1-718:12
+	package
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:4:5-25
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+MERGED from [:aFileChooser] /Volumes/Application/Android projects/git_projects/dev-test-app/aFileChooser/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-22:40
+MERGED from [:aFileChooser] /Volumes/Application/Android projects/git_projects/dev-test-app/aFileChooser/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-22:40
+MERGED from [:libraryRobotoFont] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryRobotoFont/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryRobotoFont] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryRobotoFont/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:usbSerialLibraryUSB] /Volumes/Application/Android projects/git_projects/dev-test-app/usbSerialLibraryUSB/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:usbSerialLibraryUSB] /Volumes/Application/Android projects/git_projects/dev-test-app/usbSerialLibraryUSB/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryFormEditText] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryFormEditText] /Volumes/Application/Android projects/git_projects/dev-test-app/libraryFormEditText/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:23.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.0.aar/1f60902610f403a090f67e9b36a2a51d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.0.aar/1f60902610f403a090f67e9b36a2a51d/AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:gridlayout-v7:22.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-22.0.0.aar/34d12c25849096b352d4aafa27b7d87b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:22.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-22.0.0.aar/34d12c25849096b352d4aafa27b7d87b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/design-22.2.0.aar/8663516e34ceff71cbcf1d22fe3e05fe/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/design-22.2.0.aar/8663516e34ceff71cbcf1d22fe3e05fe/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/d24c19379ca00c4e89b024960b7f8108/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/d24c19379ca00c4e89b024960b7f8108/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/84ab4ecf52af5afadbb18c8c80f3ce46/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/84ab4ecf52af5afadbb18c8c80f3ce46/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/d50af9d6f1c6dc9eca8db6fb2a8d7218/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/d50af9d6f1c6dc9eca8db6fb2a8d7218/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/80b2d478dd2e028f33116b74203564e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/80b2d478dd2e028f33116b74203564e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/d5f6849990c9d58bfa23f85c542b2eeb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/d5f6849990c9d58bfa23f85c542b2eeb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0bc4ee660f032841b399a9106bf04d01/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0bc4ee660f032841b399a9106bf04d01/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8f0ebf9813ddf4910640bc52cf91ec57/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8f0ebf9813ddf4910640bc52cf91ec57/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.0-beta4.aar/c3c1611dd2de2743d48251aef9f0279e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.0-beta4.aar/c3c1611dd2de2743d48251aef9f0279e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a73ede546bee5d17fd8ec39c52b39b51/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a73ede546bee5d17fd8ec39c52b39b51/AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5248856e5d867d7aab5f91e471da30d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5248856e5d867d7aab5f91e471da30d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:20:5-22:41
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+	tools:overrideLibrary
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:15-69
+	android:targetSdkVersion
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:9:5-72
+		INJECTED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:12:9-49
+uses-feature#android:hardware.usb.accessory
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:15:9-54
+permission#com.android.vending.CHECK_LICENSE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:19:5-21:31
+	tools:node
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:21:9-28
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:20:9-57
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:24:22-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:25:22-73
+uses-permission#android.permission.USB_PERMISSION
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:26:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:27:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:29:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:30:5-68
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:30:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:31:5-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:31:22-66
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:32:5-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:32:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:33:5-70
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:33:22-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:34:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:34:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:35:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:36:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:37:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:37:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:38:5-75
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:38:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:39:5-78
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:39:22-75
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:40:22-72
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:41:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:42:5-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:42:22-78
+uses-permission#android.permission.SHUTDOWN
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:43:5-67
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:43:22-64
+uses-permission#android.permission.REBOOT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:44:5-65
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:44:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:45:5-73
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:45:22-70
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:46:5-80
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:46:22-77
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:47:5-71
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:47:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:48:5-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:48:22-78
+uses-permission#android.permission.CALL_PRIVILEGED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:49:5-74
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:49:22-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:50:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:51:5-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:51:22-73
+uses-permission#android.permission.SET_TIME
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:53:5-67
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:53:22-64
+uses-permission#android.permission.SET_TIME_ZONE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:54:5-72
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:54:22-69
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:55:5-72
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:55:22-69
+uses-permission#android.permission.READ_LOGS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:56:5-68
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:56:22-65
+supports-screens
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:58:5-61:40
+	android:largeScreens
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:60:9-36
+	android:normalScreens
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:61:9-37
+	android:anyDensity
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:59:9-34
+application
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:66:5-716:19
+MERGED from [com.android.support:cardview-v7:23.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.0.aar/1f60902610f403a090f67e9b36a2a51d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.0.aar/1f60902610f403a090f67e9b36a2a51d/AndroidManifest.xml:22:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:gridlayout-v7:22.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-22.0.0.aar/34d12c25849096b352d4aafa27b7d87b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:gridlayout-v7:22.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-22.0.0.aar/34d12c25849096b352d4aafa27b7d87b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/design-22.2.0.aar/8663516e34ceff71cbcf1d22fe3e05fe/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/design-22.2.0.aar/8663516e34ceff71cbcf1d22fe3e05fe/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/84ab4ecf52af5afadbb18c8c80f3ce46/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/84ab4ecf52af5afadbb18c8c80f3ce46/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/d50af9d6f1c6dc9eca8db6fb2a8d7218/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/d50af9d6f1c6dc9eca8db6fb2a8d7218/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/80b2d478dd2e028f33116b74203564e2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/80b2d478dd2e028f33116b74203564e2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/d5f6849990c9d58bfa23f85c542b2eeb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/d5f6849990c9d58bfa23f85c542b2eeb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0bc4ee660f032841b399a9106bf04d01/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0bc4ee660f032841b399a9106bf04d01/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8f0ebf9813ddf4910640bc52cf91ec57/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8f0ebf9813ddf4910640bc52cf91ec57/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.0-beta4.aar/c3c1611dd2de2743d48251aef9f0279e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.0-beta4.aar/c3c1611dd2de2743d48251aef9f0279e/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/c32806b8c5211ac699d9a8cd63f54bef/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/upendra/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/fe7fb5b170fd536f87226cbdbe4b517c/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/upendra/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/b44a63593ae674ee5882a02be5edae48/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/upendra/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/8470d2da903c4a288628e674f148b9b3/AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5248856e5d867d7aab5f91e471da30d1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5248856e5d867d7aab5f91e471da30d1/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:70:9-41
+	android:allowClearUserData
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:68:9-43
+	android:debuggable
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:71:9-34
+	android:testOnly
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:72:9-33
+	android:manageSpaceActivity
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:74:9-82
+	android:persistent
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:75:9-34
+	android:largeHeap
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:73:9-33
+	android:icon
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:69:9-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:76:9-40
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:67:9-60
+activity#com.devapp.devmain.main.SplashActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:77:9-94:20
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:80:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:79:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:81:13-44
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:78:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:82:13-86:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:83:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:85:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:87:13-89:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:88:17-90
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:88:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:91:13-93:57
+	android:resource
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:93:17-54
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:92:17-79
+activity#com.devapp.devmain.main.FarmerScannerActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:95:9-100:80
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:99:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:98:13-45
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:97:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:100:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:96:13-73
+activity#com.devapp.devmain.main.LoginActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:101:9-104:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:103:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:104:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:102:13-65
+activity#com.devapp.devmain.user.AddFarmerDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:105:9-108:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:107:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:108:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:106:13-68
+activity#com.devapp.devmain.user.CreateRateChartActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:109:9-121:20
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:111:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:112:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:110:13-75
+intent-filter#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.OPENABLE+data:mimeType:*/*
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:113:13-120:29
+action#android.intent.action.GET_CONTENT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:114:17-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:114:25-73
+category#android.intent.category.DEFAULT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:116:17-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:116:27-73
+category#android.intent.category.OPENABLE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:117:17-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:117:27-74
+data
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:119:17-48
+	android:mimeType
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:119:23-45
+activity#com.devapp.devmain.main.ReportsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:122:9-125:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:124:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:125:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:123:13-67
+activity#com.devapp.devmain.user.EnrollSocietyActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:126:9-130:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:128:13-45
+	android:noHistory
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:129:13-37
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:130:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:127:13-73
+activity#com.devapp.devmain.user.AddUserActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:131:9-135:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:133:13-45
+	android:noHistory
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:134:13-37
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:135:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:132:13-67
+activity#com.devapp.devmain.user.AllFarmerData
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:136:9-139:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:138:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:139:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:137:13-65
+activity#com.devapp.devmain.user.AllUserActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:140:9-143:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:142:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:143:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:141:13-67
+activity#com.devapp.devmain.user.AllSocietyActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:144:9-148:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:146:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:148:13-52
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:147:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:145:13-70
+activity#com.devapp.devmain.tabs.AlertActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:149:9-154:59
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:152:13-45
+	android:noHistory
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:153:13-37
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:151:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:154:13-56
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:150:13-65
+activity#com.devapp.devmain.user.AllRateChartActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:155:9-159:69
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:158:13-45
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:157:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:159:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:156:13-72
+activity#com.devapp.devmain.user.AllSampleListActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:160:9-164:69
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:163:13-45
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:162:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:164:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:161:13-73
+activity#com.devapp.devmain.user.AddSampleDataActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:165:9-170:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:168:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:170:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:167:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:169:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:166:13-73
+activity#com.devapp.devmain.user.RateChartNew
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:171:9-176:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:174:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:176:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:173:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:175:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:172:13-64
+activity#com.devapp.devmain.user.RestoreSmartAmcuActivty
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:177:9-182:55
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:180:13-49
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:179:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:182:13-52
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:181:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:178:13-75
+activity#com.devapp.devmain.user.ChooseLanguageActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:183:9-188:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:186:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:188:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:185:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:187:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:184:13-74
+activity#com.devapp.devmain.user.AllChillingCenterDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:189:9-194:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:192:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:194:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:191:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:193:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:190:13-76
+activity#com.devapp.devmain.user.AddChillingCenterActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:195:9-200:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:198:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:200:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:197:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:199:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:196:13-77
+activity#com.devapp.kmfcommon.AllRateChartDetailsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:201:9-204:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:203:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:204:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:202:13-76
+activity#com.devapp.devmain.user.ShutDownAlertActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:205:9-208:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:207:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:208:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:206:13-73
+activity#com.devapp.devmain.user.SimLockActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:209:9-212:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:211:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:212:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:210:13-67
+activity#com.devapp.devmain.user.RestartTabActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:213:9-216:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:215:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:216:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:214:13-70
+activity#com.devapp.devmain.main.ManageSpaceActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:217:9-221:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:219:13-45
+	android:launchMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:220:13-44
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:221:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:218:13-71
+activity#com.devapp.devmain.macollection.MultipleMilkAnalyser
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:222:9-226:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:225:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:224:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:226:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:223:13-80
+activity#com.devapp.devmain.user.CustomRateChartActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:227:9-231:80
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:230:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:229:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:231:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:228:13-75
+activity#com.devapp.devmain.user.AddMyRateChart
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:232:9-235:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:234:13-50
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:235:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:233:13-66
+activity#com.devapp.kmfcommon.ShowMyRateChart
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:236:9-238:72
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:238:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:237:13-64
+activity#com.devapp.devmain.multipleequipments.SelectMilkActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:239:9-243:69
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:242:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:241:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:243:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:240:13-84
+provider#com.ianhanniballake.localstorage.LocalStorageProvider
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:260:9-270:20
+	android:grantUriPermissions
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:265:13-47
+	android:enabled
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:263:13-49
+	android:authorities
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:262:13-77
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:264:13-36
+	android:permission
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:266:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:261:13-81
+intent-filter#action:name:android.content.action.DOCUMENTS_PROVIDER
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:267:13-269:29
+action#android.content.action.DOCUMENTS_PROVIDER
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:268:17-84
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:268:25-81
+receiver#com.devapp.syncapp.receiver.HotspotReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:273:9-277:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:273:19-77
+intent-filter#action:name:android.net.wifi.WIFI_AP_STATE_CHANGED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:274:13-276:29
+action#android.net.wifi.WIFI_AP_STATE_CHANGED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:275:17-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:275:25-78
+receiver#com.devapp.devmain.services.ShutDownReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:278:9-283:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:278:19-78
+intent-filter#action:name:android.intent.action.ACTION_SHUTDOWN+action:name:android.intent.action.QUICKBOOT_POWEROFF
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:279:13-282:29
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:280:17-80
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:280:25-77
+action#android.intent.action.QUICKBOOT_POWEROFF
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:281:17-83
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:281:25-80
+receiver#com.devapp.devmain.services.BootReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:284:9-291:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:284:19-74
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:285:13-290:29
+	android:priority
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:285:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:286:17-79
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:286:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:287:17-82
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:287:25-79
+receiver#com.devapp.devmain.testing.PrintReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:292:9-296:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:292:19-74
+intent-filter#action:name:com.stellapps.intent.action.PRINT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:293:13-295:29
+action#com.stellapps.intent.action.PRINT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:294:17-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:294:25-73
+receiver#com.devapp.devmain.services.SendSMSBroadcast
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:297:9-302:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:297:19-78
+intent-filter#action:name:SMS_DELIVERED+action:name:SMS_SENT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:298:13-301:29
+	android:priority
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:298:28-50
+action#SMS_SENT
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:299:17-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:299:25-48
+action#SMS_DELIVERED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:300:17-56
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:300:25-53
+receiver#com.devapp.devmain.services.SmartAmcuAdminReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:310:9-322:20
+	android:permission
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:312:13-70
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:311:13-78
+meta-data#android.app.device_admin
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:313:13-315:56
+	android:resource
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:315:17-53
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:314:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED+action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:317:13-321:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:318:17-82
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:318:25-79
+action#android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:319:17-92
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:319:25-89
+action#android.app.action.DEVICE_ADMIN_DISABLED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:320:17-83
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:320:25-80
+receiver#com.devapp.devmain.services.DownloadManagerReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:323:9-327:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:323:19-85
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:324:13-326:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:325:17-82
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:325:25-79
+receiver#com.devapp.devmain.services.NetworkReciever
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:328:9-332:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:328:19-77
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:329:13-331:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:330:17-79
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:330:25-76
+receiver#com.devapp.devmain.httptasks.TaskScheduler$AlarmReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:333:9-93
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:333:19-90
+service#com.devapp.devmain.peripherals.services.DeviceManagerService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:335:9-96
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:335:18-93
+service#com.devapp.devmain.peripherals.services.PingIntentService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:336:9-93
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:336:18-90
+service#com.devapp.devmain.peripherals.services.PingService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:337:9-339:44
+	android:stopWithTask
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:339:13-41
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:338:13-79
+service#com.devapp.devmain.services.CreateRateChartForSociety
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:340:9-89
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:340:18-86
+service#com.devapp.devmain.services.SendEmail
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:341:9-73
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:341:18-70
+service#com.devapp.devmain.services.LowBatteryService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:342:9-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:342:18-78
+service#com.devapp.devmain.services.SendDailyShiftReport
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:343:9-84
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:343:18-81
+service#com.devapp.devmain.services.EnterRCEntity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:344:9-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:344:18-74
+service#com.devapp.devmain.server.LogInService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:345:9-74
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:345:18-71
+service#com.devapp.devmain.services.PurgeData
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:346:9-73
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:346:18-70
+service#com.devapp.devmain.services.DeleteOldRecordService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:347:9-86
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:347:18-83
+service#com.devapp.devmain.services.TabAlertSwitchOffService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:348:9-88
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:348:18-85
+service#com.devapp.devmain.services.TabAlertSwitchOffDelayService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:349:9-93
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:349:18-90
+service#com.devapp.devmain.services.PostEssaeCleaningDataService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:350:9-352:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:352:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:351:13-84
+service#com.devapp.devmain.httptasks.PostCollectionRecordsService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:353:9-355:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:355:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:354:13-85
+service#com.devapp.devmain.httptasks.RateChartPullService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:356:9-358:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:358:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:357:13-77
+service#com.devapp.devmain.services.TabShutDownService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:359:9-361:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:361:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:360:13-74
+service#com.devapp.devmain.services.SendSMSService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:362:9-364:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:364:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:363:13-70
+service#com.devapp.devmain.services.DeleteSentSMS
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:365:9-367:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:367:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:366:13-69
+service#com.devapp.devmain.services.UpdateFarmerService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:368:9-370:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:370:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:369:13-75
+service#com.devapp.devmain.httptasks.PostFarmerRecords
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:371:9-373:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:373:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:372:13-74
+service#com.devapp.devmain.services.WriteRateChartLogs
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:374:9-376:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:376:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:375:13-74
+service#com.devapp.devmain.services.NetworkCheck
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:377:9-379:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:379:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:378:13-68
+meta-data#io.fabric.ApiKey
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:381:9-383:72
+	android:value
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:383:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:382:13-44
+activity#com.devapp.devmain.Connectivity.ConnectivityCheck
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:385:9-387:80
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:387:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:386:13-77
+activity#com.devapp.devmain.license.LicenseActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:388:9-390:80
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:390:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:389:13-70
+activity#com.devapp.smartcc.AllTruckActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:391:9-396:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:395:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:394:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:393:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:396:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:392:13-63
+activity#com.devapp.smartcc.UpdateTruckDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:397:9-401:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:400:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:399:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:401:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:398:13-65
+activity#com.devapp.smartcc.AllAgentActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:402:9-407:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:406:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:405:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:404:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:407:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:403:13-63
+activity#com.devapp.smartcc.AgentDetailsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:408:9-413:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:412:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:411:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:410:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:413:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:409:13-67
+activity#com.devapp.devmain.macollection.MilkRejectActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:414:9-419:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:418:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:417:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:416:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:419:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:415:13-78
+activity#com.devapp.smartcc.EnterRejectDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:420:9-425:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:424:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:423:13-45
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:422:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:425:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:421:13-65
+activity#com.devapp.smartcc.truckdetailsListActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:426:9-428:63
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:428:13-60
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:427:13-71
+activity#com.devapp.smartcc.truckdetailsDetailActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:429:9-436:20
+	android:parentActivityName
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:432:13-85
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:431:13-62
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:430:13-73
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:433:13-435:79
+	android:value
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:435:17-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:434:17-63
+activity#com.devapp.devmain.macollection.ParallelActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:437:9-441:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:440:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:439:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:441:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:438:13-76
+activity#com.devapp.smartcc.SelectFatAndSnfActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:442:9-446:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:445:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:444:13-43
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:446:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:443:13-70
+activity#com.devapp.devmain.milkline.AdvanceConfiguration
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:447:9-451:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:450:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:449:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:451:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:448:13-76
+activity#com.devapp.devmain.milkline.AllTankerList
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:452:9-457:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:456:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:455:13-43
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:454:13-36
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:457:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:453:13-69
+activity#com.devapp.devmain.milkline.EnterTankerDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:458:9-462:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:461:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:460:13-49
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:462:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:459:13-74
+activity#com.devapp.devmain.milkline.SupervisorActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:463:9-467:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:466:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:465:13-49
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:467:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:464:13-74
+activity#com.devapp.devmain.milkline.DispatchSupervisorActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:468:9-472:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:471:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:470:13-49
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:472:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:469:13-82
+activity#com.devapp.devmain.main.AllDispatchReportsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:473:9-477:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:476:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:475:13-49
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:477:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:474:13-78
+service#com.devapp.smartcc.service.PostTruckRecords
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:479:9-481:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:481:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:480:13-71
+service#com.devapp.devmain.milkline.service.PostTankerRecords
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:482:9-484:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:484:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:483:13-81
+activity#com.devapp.devmain.helper.ShiftSummaryActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:486:9-490:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:489:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:488:13-42
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:490:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:487:13-74
+activity#com.devapp.smartcc.PortConfigurationActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:491:9-495:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:494:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:493:13-42
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:495:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:492:13-72
+activity#com.devapp.devmain.main.DeviceSettingAlert
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:496:9-500:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:498:13-45
+	android:launchMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:499:13-43
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:500:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:497:13-70
+activity#com.devapp.devmain.helper.DeviceDataActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:501:9-505:54
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:504:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:503:13-47
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:505:13-51
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:502:13-72
+activity#com.devapp.devmain.main.DeviceListActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:506:9-510:80
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:508:13-45
+	android:launchMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:509:13-43
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:510:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:507:13-70
+service#com.devapp.devmain.httptasks.ConfigurationPush
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:515:9-517:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:517:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:516:13-74
+receiver#com.devapp.devmain.milkline.service.EndShiftReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:519:9-89
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:519:19-86
+activity#com.devapp.smartcc.report.MccReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:521:9-525:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:524:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:523:13-43
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:525:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:522:13-71
+activity#com.devapp.smartcc.report.FilterMccReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:526:9-530:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:529:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:528:13-42
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:530:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:527:13-77
+activity#com.devapp.devmain.helper.TimeAlertActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:531:9-535:69
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:534:13-45
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:533:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:535:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:532:13-71
+activity#com.devapp.devmain.helper.LowBatteryActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:536:9-540:69
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:539:13-45
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:538:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:540:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:537:13-72
+receiver#com.devapp.devmain.broadcast.BatteryStatusReceiver
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:553:9-559:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:553:19-84
+intent-filter#action:name:android.intent.action.BATTERY_CHANGED+action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:554:13-558:29
+action#android.intent.action.BATTERY_CHANGED
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:555:17-80
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:555:25-77
+action#android.intent.action.BATTERY_LOW
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:556:17-76
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:556:25-73
+action#android.intent.action.BATTERY_OKAY
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:557:17-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:557:25-74
+activity#com.devapp.devmain.milkline.EnterDispatchDetailsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:561:9-565:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:564:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:563:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:565:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:562:13-84
+activity#com.devapp.smartcc.report.MemberReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:566:9-570:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:569:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:568:13-43
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:570:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:567:13-74
+activity#com.devapp.smartcc.report.FilterMemberReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:571:9-575:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:574:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:573:13-42
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:575:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:572:13-80
+activity#com.devapp.devmain.agentfarmersplit.AgentFarmerActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:576:9-580:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:579:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:578:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:580:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:577:13-83
+activity#com.devapp.devmain.agentfarmersplit.AggregateFarmerCollection
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:581:9-585:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:584:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:583:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:585:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:582:13-89
+activity#com.devapp.devmain.additionalRecords.EditableRecordList
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:587:9-591:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:590:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:589:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:591:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:588:13-83
+activity#com.devapp.devmain.additionalRecords.EditCollectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:592:9-596:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:595:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:594:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:596:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:593:13-87
+activity#com.devapp.kmfcommon.TruckEntryActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:597:9-599:32
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:599:13-29
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:598:13-67
+activity#com.devapp.kmfcommon.TruckEntryReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:600:9-602:32
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:602:13-29
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:601:13-73
+activity#com.devapp.kmfcommon.TruckDetailCommonReport
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:603:9-81
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:603:19-78
+activity#com.devapp.kmfcommon.CollectionReportSummaryGraph
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:604:9-86
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:604:19-83
+activity#com.devapp.kmfcommon.AllTruckEventActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:605:9-79
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:605:19-76
+activity#com.devapp.kmfcommon.UserSelectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:606:9-608:80
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:608:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:607:13-70
+activity#com.devapp.kmfcommon.UserMilkCollectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:609:9-611:80
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:611:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:610:13-75
+activity#com.devapp.devmain.macollection.SampleCollectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:613:9-619:55
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:617:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:616:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:619:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:615:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:618:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:614:13-84
+activity#com.devapp.devmain.macollection.CollectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:621:9-627:55
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:625:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:624:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:627:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:623:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:626:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:622:13-78
+activity#com.devapp.kmfcommon.WeightCollectionActivityV2
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:628:9-630:72
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:630:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:629:13-75
+activity#com.devapp.kmfcommon.SettingActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:631:9-633:69
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:633:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:632:13-64
+activity#com.devapp.kmfcommon.PrintDuplicateActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:634:9-636:80
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:636:13-77
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:635:13-71
+activity#com.devapp.devmain.macollection.SalesActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:637:9-641:69
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:639:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:640:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:641:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:638:13-73
+activity#com.devapp.kmfcommon.AllReportsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:642:9-647:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:645:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:647:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:644:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:646:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:643:13-67
+activity#com.devapp.devmain.macollection.UpdatePastRecord
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:648:9-653:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:651:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:653:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:650:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:652:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:649:13-76
+activity#com.devapp.devmain.macollection.MCCCollectionActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:654:9-659:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:657:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:659:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:656:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:658:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:655:13-81
+activity#com.devapp.devmain.user.InCentiveRateDetails
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:660:9-665:55
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:663:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:665:13-52
+	android:configChanges
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:662:13-59
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:664:13-66
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:661:13-72
+service#com.devapp.devmain.deviceinfo.PostDeviceStatusService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:667:9-669:40
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:669:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:668:13-81
+service#com.devapp.devmain.deviceinfo.GetDeviceStatusNew
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:670:9-673:39
+	android:enabled
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:672:13-35
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:673:13-36
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:671:13-76
+activity#com.devapp.devmain.deviceinfo.DeviceInfoActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:677:9-680:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:679:13-50
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:680:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:678:13-76
+activity#com.devapp.smartcc.test.TestRduActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:681:9-684:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:683:13-50
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:684:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:682:13-67
+activity#com.devapp.devmain.main.ReportsActivityV2
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:685:9-78
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:685:19-75
+activity#com.devapp.devmain.main.UnsentRecordsActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:686:9-690:20
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:688:13-50
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:689:13-80
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:687:13-73
+activity#com.devapp.devmain.peripherals.activities.WebSocketActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:691:9-692:20
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:691:19-93
+service#com.devapp.syncapp.service.APService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:694:9-697:48
+	android:enabled
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:696:13-35
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:697:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:695:13-64
+service#com.devapp.syncapp.service.BTPService
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:698:9-701:48
+	android:enabled
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:700:13-35
+	android:exported
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:701:13-37
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:699:13-65
+activity#com.devapp.devmain.encryption.EncryptedReportActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:703:9-707:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:706:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:705:13-45
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:707:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:704:13-81
+activity#com.devapp.devmain.main.LauncherActivity
+ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:709:9-713:72
+	android:screenOrientation
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:712:13-50
+	android:label
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:711:13-46
+	android:theme
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:713:13-69
+	android:name
+		ADDED from /Volumes/Application/Android projects/git_projects/dev-test-app/devApp/src/main/AndroidManifest.xml:710:13-68
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/upendra/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/687bfcf15974868686f26a3c1167cd4e/AndroidManifest.xml:13:13-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c90f6bd1d97e710822008198c429dc27/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/7c361fdcefa74b8420a7f194e65dc9e5/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/6105e3b625deadadeed366ab88b26abd/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:29:9-63
+permission#com.devApp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:32:22-76
+uses-permission#com.devApp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.devApp
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:48:27-58
+category#com.devApp
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/ab85934be045cacc5cdad6db0606f750/AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/182b071c762e58829e93fd7f2703be6c/AndroidManifest.xml:10:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/f85009c9307fa5899afa4e32bd213fd0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4df2f4cb38491453336a05505403e134/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3cb27c371986b2285099b6b2ce89dbb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f72e8c80f6df41759314a024d622a905/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fc118f340414a0292d727a17cb7e64a5/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/upendra/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36a91b3b6cc655da2fcf22d7d9a6198b/AndroidManifest.xml:26:13-58

@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_padding">6dp</dimen>
+    <dimen name="table_row_padding">8dp</dimen>
+    <dimen name="table_row_header">4dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+    <!-- New color adde-->
+
+    <color name="lightblue">#33B5E5</color>
+    <color name="textHeadingColor">#696969</color>
+    <color name="thinline">#E6E6E6</color>
+    <color name="header">#104386</color>
+    <color name="lightbgblue">#A9E2F3</color>
+
+    <color name="textblue">#086A87</color>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="card_elevation">50dp</dimen>
+
+</resources>

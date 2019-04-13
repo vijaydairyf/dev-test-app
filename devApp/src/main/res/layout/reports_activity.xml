@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Get reports"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <Button
+            android:id="@+id/btnTrigger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sales"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/separator"
+        android:layout_below="@+id/header"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/dailyshift"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lnDailyShift"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etShiftDateDR"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Shift date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <Spinner
+                        android:id="@+id/spSelectShift"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/Select_shift" />
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnDailyreport"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnDailyShift"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generate"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+            <!-- Center report for shift-->
+
+            <LinearLayout
+                android:id="@+id/lnCenterHeader"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/centershift"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlCenterBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lnCenterShift"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etCenterShiftDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Shift date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <Spinner
+                        android:id="@+id/spCenterSelectedShift"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/Select_shift" />
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnShiftCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnCenterShift"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generate"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+
+            <!-- shift report for sales-->
+
+            <LinearLayout
+                android:id="@+id/lnTotalShiftHeader"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/totalShift"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlTotalShiftBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:id="@+id/lnTotalShift"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etTotalShift"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Shift date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <Spinner
+                        android:id="@+id/spTotalShift"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/Select_shift" />
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnTotalShift"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnTotalShift"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generateTotalShift"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlMemberBill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/lnsumm"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/table_row_header"
+                    android:orientation="vertical">
+
+                    <com.eevoskos.robotoviews.widget.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dip"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/periodicReport"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:typeface="condensed" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spFarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lnsumm"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/Farmer_Names"
+                    android:prompt="@string/farmer_prompt" />
+
+                <LinearLayout
+                    android:id="@+id/lnMemberbillDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/spFarmer"
+                    android:orientation="horizontal">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etStartDateMBR"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Start date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etEndDateMBR"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="End date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnMemberbillId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/lnMemberbillDate"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etFarmStartMBR"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:hint="Farmer id from"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etFarmEndMBR"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:hint="To"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnPeriodicShiftRecords"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnMemberbillId"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/getPeriodicRcords"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnMemberBill"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/btnPeriodicShiftRecords"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/genbillreg"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    app:typeface="condensed_bold" />
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnMemberSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/btnMemberBill"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/genbillsumm"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+            <com.eevoskos.robotoviews.widget.RobotoButton
+                android:id="@+id/btnMemberList"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/btn_selector_positive"
+                android:text="@string/memberlist"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:visibility="gone"
+                app:typeface="condensed_bold" />
+
+
+            <LinearLayout
+                android:id="@+id/lnperiodicSalesHeader"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/periodicSales"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlpriodicSalesbody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/lnperiodicSalesbody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etStartSalesDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Start date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etEndSalesDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="End date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnSales"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnperiodicSalesbody"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generate"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+            <!-- Total purchase report-->
+
+
+            <LinearLayout
+                android:id="@+id/lnPurchaseHeader"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/purchaseReport"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPurchaseBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/lnPurchanseBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etStartPurchaseDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Start date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etEndPurchaseDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="End date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnPurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnPurchanseBody"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generatePur"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+
+            <!-- Total farmer periodic report-->
+
+            <LinearLayout
+                android:id="@+id/lnTPeriodicH"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/totalPeriodic"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlTPeriodic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lnTPeriodic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etStartTPDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="Start date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+
+                    <com.eevoskos.robotoviews.widget.RobotoEditText
+                        android:id="@+id/etEndTPDate"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="End date"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        app:typeface="condensed"></com.eevoskos.robotoviews.widget.RobotoEditText>
+                </LinearLayout>
+
+                <com.eevoskos.robotoviews.widget.RobotoButton
+                    android:id="@+id/btnTotalPeriodic"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/lnTPeriodic"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:text="@string/generate"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:typeface="condensed_bold" />
+            </RelativeLayout>
+
+            <com.eevoskos.robotoviews.widget.RobotoButton
+                android:id="@+id/btnPrintA4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector_positive"
+                android:text="Print report"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:typeface="condensed_bold" />
+
+
+            <LinearLayout
+                android:id="@+id/lnPrintFarmer"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/table_row_header"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.eevoskos.robotoviews.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/printFarmer"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:typeface="condensed" />
+            </LinearLayout>
+
+            <com.eevoskos.robotoviews.widget.RobotoButton
+                android:id="@+id/btnPrintFarmer"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector_positive"
+                android:text="Print farmer sheet"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:typeface="condensed_bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:background="#BDBDBD"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:id="@+id/com.eevoskos.robotoviews.widget.RobotoButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:typeface="condensed_bold" />
+    </LinearLayout>
+
+</RelativeLayout>

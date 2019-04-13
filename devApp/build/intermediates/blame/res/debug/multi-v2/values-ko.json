@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Application/Android projects/git_projects/dev-test-app/devApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f25c3afffeccd4550f060c961d5c2a2b/res/values-ko/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "179",
+                        "endOffsets": "426"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2479",
+                        "endColumns": "179",
+                        "endOffsets": "2654"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/6a0839ba6f2e33a70cde789d69855c1e/res/values-ko/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,518,632,732,906,1021,1154,1274,1478,1579,1746,1862,2039,2184,2269,2353",
+                        "endColumns": "101,170,113,99,173,114,132,119,203,100,166,115,176,144,84,83,99",
+                        "endOffsets": "346,517,631,731,905,1020,1153,1273,1477,1578,1745,1861,2038,2183,2268,2352,2452"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1426,1532,1703,1821,1925,2099,2218,2355,2659,2863,2968,3135,3255,3432,3581,3670,3758",
+                        "endColumns": "105,170,117,103,173,118,136,123,203,104,166,119,176,148,88,87,103",
+                        "endOffsets": "1527,1698,1816,1920,2094,2213,2350,2474,2858,2963,3130,3250,3427,3576,3665,3753,3857"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/64a2ca2b9f98e82704096ae07df4c8e1/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,386,480,582,664,762,868,966,1061,1156,1256,1352,1451",
+                        "endColumns": "94,93,101,81,97,105,97,94,94,99,95,98,114",
+                        "endOffsets": "381,475,577,659,757,863,961,1056,1151,1251,1347,1446,1561"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,294,396,478,576,682,780,875,970,1070,1166,1265",
+                        "endColumns": "94,93,101,81,97,105,97,94,94,99,95,98,114",
+                        "endOffsets": "195,289,391,473,571,677,775,870,965,1065,1161,1260,1375"
+                    }
+                },
+                {
+                    "source": "/Volumes/Application/Android projects/git_projects/dev-test-app/aFileChooser/build/intermediates/packaged_res/debug/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,152,210",
+                        "endColumns": "45,50,57,57",
+                        "endOffsets": "96,147,205,263"
+                    },
+                    "to": {
+                        "startLines": "15,34,35,37",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1380,3862,3913,4072",
+                        "endColumns": "45,50,57,57",
+                        "endOffsets": "1421,3908,3966,4125"
+                    }
+                },
+                {
+                    "source": "/Users/upendra/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/392cf79c958b14625c729ddd149f5e3f/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "36",
+                        "startColumns": "4",
+                        "startOffsets": "3971",
+                        "endColumns": "100",
+                        "endOffsets": "4067"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.devapp.main.DeviceInfoActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386" >
+
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Device Status "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+    </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_batteryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:text="Battery"/>
+
+    <TextView
+        android:id="@+id/tv_batteryStatus"
+        android:layout_below="@id/tv_batteryTitle"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/tv_networkTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:text="Network"/>
+        <TextView
+            android:id="@+id/tv_networkInfo"
+            android:layout_below="@id/tv_networkTitle"
+            android:layout_width="match_parent"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/tv_dataTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:text="Data"/>
+        <TextView
+            android:id="@+id/tv_dataInfo"
+            android:layout_below="@id/tv_dataTitle"
+            android:layout_width="match_parent"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

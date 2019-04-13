@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="red">#900</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="theme">#4c769c</color>
+    <color name="grid_state_pressed">#BB561e14</color>
+    <color name="grid_state_focused">#77561e14</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#6E6E6E</color>
+    <color name="light_grey">#E6E6E6</color>
+    <color name="theme_brown_transparent">#561e14</color>
+    <color name="pressed">#336600</color>
+    <color name="gray_dark">#585858</color>
+    <color name="theme_dark">#006699</color>
+    <color name="theme_light">#0099cc</color>
+    <color name="theme_trans_dark">#8C006699</color>
+    <color name="theme_trans_light">#8C0099cc</color>
+    <color name="list_item">#1A0099cc</color>
+    <color name="table_row_header">#BDBDBD</color>
+    <color name="green">#04B404</color>
+    <color name="focused">#ff66ff</color>
+    <color name="orange">#fcbe62</color>
+    <color name="btnblueNormal">#2E9AFE</color>
+    <color name="btnbluePressed">#19aae6</color>
+    <color name="btnCattleNormal">#09fa56</color>
+    <color name="btnCattlePressed">#b3047b</color>
+
+    <color name="milkAnalyserOne">#e5e5e5</color>
+    <color name="milkAnalyserTwo">#ccefff</color>
+    <color name="milkAnalayserGreen">#63A319</color>
+
+    <color name="normal">#2E9AFE</color>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#03A9F4</color>
+
+    <color name="spinner_normal">#e5dad5</color>
+    <color name="spinner_selected">#7f7fff</color>
+    <color name="vanilla_cream">#FCFDEF</color>
+    <color name="strawberry_cream">#FED6A5</color>
+    <color name="strawberry_dark">#EDE574</color>
+
+    <color name="enable_port">#e4bfef</color>
+
+    <color name="heading_normal">#aae6ff</color>
+    <color name="heading_focussed">#6c64ff</color>
+
+    <!-- report color-->
+
+    <color name="olive_drab">#6b8e23</color>
+    <color name="royal_blue">#4169e1</color>
+    <color name="slate_grey">#2f4f4f</color>
+    <color name="maroon">#b03060</color>
+
+    <color name="list_item_divider_blue">#0975e1</color>
+</resources>

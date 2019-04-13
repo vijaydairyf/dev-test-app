@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Rate Charts"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector_menu"
+            android:drawableLeft="@drawable/rupee"
+            android:drawableRight="@drawable/add_new"
+            android:onClick="gotoAddRateChart"
+            android:text="  " />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listMYRate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:choiceMode="none"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:focusable="true">
+
+    </ListView>
+
+</RelativeLayout>

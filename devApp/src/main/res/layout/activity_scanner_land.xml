@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#104386">
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_selector_menu"
+            android:drawableLeft="@drawable/menu_n"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=" "
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:id="@+id/tvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Barcode verification "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:typeface="condensed" />
+
+        <Button
+            android:id="@+id/btnSwitchDevice"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@+id/ivLogout"
+            android:background="@drawable/btn_selector_menu"
+            android:drawableBottom="@drawable/back_small"
+            android:padding="5dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="00dp"
+            android:text=" d"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+
+
+        <Button
+            android:id="@+id/ivLogout"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/dummy"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="@string/reboot"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/dummy"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+    <!-- This section to display farmer collection -->
+    <RelativeLayout
+        android:id="@+id/rlshiftDetailsInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="2dp"
+        android:background="#d3ffce">
+
+        <LinearLayout
+            android:id="@+id/lnShiftDetailsInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="@string/total_farmer"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvCollection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="@string/total_collection"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvTestRecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="@string/total_records"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvUnsent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="@string/total_unsent"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnShiftDetailsData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnShiftDetailsInfo"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvTotalFarmers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvTotalCollections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0.00Ltrs"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvTotalRecords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvTotalUnsent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0/0"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Added for center details-->
+
+    <RelativeLayout
+        android:id="@+id/rlCenterShiftDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlshiftDetailsInfor"
+        android:layout_marginTop="2dp"
+        android:background="#d3ffce">
+
+
+        <LinearLayout
+            android:id="@+id/lnCenterShiftData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnCenterShiftDetailsInfo"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvCCHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="CC Collections"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvCenterCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0.00Ltrs"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvCollectionHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="CC Quantity"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+
+            <com.eevoskos.robotoviews.widget.RobotoTextView
+                android:id="@+id/tvCenterCollectaion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:typeface="condensed" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Added shift information-->
+
+    <LinearLayout
+
+        android:id="@+id/lnPendingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlCenterShiftDetails"
+        android:layout_marginTop="5dp"
+        android:background="#d3ffce"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvPendingHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/time_left_for_session"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPendingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/white_circle"
+            android:gravity="center_vertical"
+            android:text="HH:MM:SS"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlshiftDetailsInfor"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/lnButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lnBtnHorOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnSociety"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/socity"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Societies"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp" />
+
+
+
+                <Button
+                    android:id="@+id/btnFarmer"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/farmer_new"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Farmers"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnReports"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rep"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Reports"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/btnCCReport"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rep"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="CC Report"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnAdvanceReport"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rep"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Reports"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnPrintShiftReport"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rep"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Print Shift Report"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnUpdateValues"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Edit Previous Data"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnUpdateValuesHistory"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Edit Data History"
+                    android:textColor="#ffffff"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnSimlock"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/simlk"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Sim Lock"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnTruck"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/truckEntry"
+                    android:textColor="#ffffff"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnTruckReport"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/truck_entry_report"
+                    android:textColor="#ffffff"
+                    android:visibility="gone" />
+
+
+
+                <Button
+                    android:id="@+id/btnTruckList"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/truck_list"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/truck_list"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnNDDBDeviceList"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:layout_marginRight="15dp"
+                    android:drawableRight="@drawable/devices_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Device List"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnNDDBLogout"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:drawableRight="@drawable/logout_d"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Logout"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnNDDBReboot"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/reboot_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Reboot"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnNDDBShutDown"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/shutdown_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Shutdown"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnBtnHorTw0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnLinear"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rate_nw"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Rate Chart"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnSetting"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Configuration"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnAdvanceConfig"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Advanced Config"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnEndShift"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/endshift"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/end_shift"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnCheckCon"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/conn"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/checkconn"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnDeviceSetting"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Device Setting"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnConfigurePassword"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/device"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/configure_devie"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnAgentList"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/user_groups"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/agent_list"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnRejectEntry"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/reject_milk"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/reject_entry"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnEditCollection"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/endshift"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/editCollection"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/btnNDDBErp"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/application_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="ERP"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnNDDBFileManager"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/file_explorer_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="File Manager"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnHorThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/btnConversionFact"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Conversion factor"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnDeviceInfo"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/device_info"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutSociety"
+                    android:layout_width="210dp"
+                    android:layout_height="65dp">
+
+                    <Button
+                        android:id="@+id/btnSocietyInfo"
+                        android:layout_width="200dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/btn_selector_positive"
+                        android:drawableRight="@drawable/infor"
+                        android:padding="5dp"
+                        android:paddingLeft="5dp"
+                        android:text="Society Info"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnUser"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/adduser"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Users"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnSampleTest"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/card"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/sample_test"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnInstallAPK"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/apk"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/installAPK"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnmultipleMA"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/multiple"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Multiple MA"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnCenterCollection"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/assoc"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/associated_center"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnPrintDuplicate"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/printer_new"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/print_duplicate"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnCenter"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/assoc"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/associated_center"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnMyRate"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/rupee_big"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Rate Charts"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnCheckForUpdate"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/update"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Update"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/btnAgentCollection"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/split_collection"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnDeviceStatus"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/device_status_d"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/device_status"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnUnsentRecords"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_selector_positive"
+                    android:drawableRight="@drawable/setting"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/unsent_records"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnOfflineData"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:drawableRight="@drawable/offline_records_d"
+                    android:background="@drawable/btn_selector_positive"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/offline_record"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="7dp"
+        android:background="@color/lightblue" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="2dp"
+        android:background="@color/lightblue" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/etBarcode"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="ID.."
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textSize="25sp"
+        app:emptyAllowed="false" />
+
+    <LinearLayout
+        android:id="@+id/lnMilkType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#d3ffce"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Select cattle type "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spCattleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:entries="@array/Milk_type"
+            android:focusable="true"
+            android:prompt="@string/milk_prompt" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlUnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etBarcode"
+        android:layout_marginTop="25dp">
+
+        <CheckBox
+            android:id="@+id/checkregisterd"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:focusable="true"></CheckBox>
+
+        <TextView
+            android:id="@+id/tvRegistered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/checkregisterd"
+            android:text="@string/unregistered_user"
+            android:textColor="@color/gray_dark"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvFarmerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlUnreg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Farmer details"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_negative"
+            android:padding="5dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Sign In"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnSales"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_positive"
+            android:padding="5dp"
+            android:text="Sales Entry"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <include layout="@layout/progress_dialog_custom" />
+
+</RelativeLayout>

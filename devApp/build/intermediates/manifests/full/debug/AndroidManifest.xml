@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devApp"
+    android:versionCode="237"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="20" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android:hardware.usb.accessory"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    //permission to set tab time
+    <uses-permission android:name="android.permission.SET_TIME" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.devApp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.devApp.permission.C2D_MESSAGE" />
+    <!--
+ android:debuggable="true"
+   android:testOnly="false"
+    -->
+    <application
+        android:name="com.devapp.devmain.DevAppApplication"
+        android:allowClearUserData="false"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:manageSpaceActivity="com.devapp.devmain.main.ManageSpaceActivity"
+        android:persistent="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.devapp.devmain.main.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.devapp.devmain.main.FarmerScannerActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.main.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AddFarmerDetails"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.CreateRateChartActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.devapp.devmain.main.ReportsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.EnrollSocietyActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AddUserActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AllFarmerData"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AllUserActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AllSocietyActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.tabs.AlertActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.devapp.devmain.user.AllRateChartActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.devapp.devmain.user.AllSampleListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.devapp.devmain.user.AddSampleDataActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.RateChartNew"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.RestoreSmartAmcuActivty"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.ChooseLanguageActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.AllChillingCenterDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.AddChillingCenterActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.kmfcommon.AllRateChartDetailsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.ShutDownAlertActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.SimLockActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.RestartTabActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.main.ManageSpaceActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.macollection.MultipleMilkAnalyser"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.user.CustomRateChartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.user.AddMyRateChart"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.kmfcommon.ShowMyRateChart"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.multipleequipments.SelectMilkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- <activity -->
+        <!-- android:name="com.stellapps.tvs.usbotg.TvsMainActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:screenOrientation="portrait" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" /> -->
+        <!-- </intent-filter> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" -->
+        <!-- android:resource="@xml/device_filter" /> -->
+        <!-- </activity> -->
+
+        <provider
+            android:name="com.ianhanniballake.localstorage.LocalStorageProvider"
+            android:authorities="com.ianhanniballake.localstorage.documents"
+            android:enabled="@bool/use_provider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS" >
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+        <!-- Added this reciver to support tab Image -->
+        <receiver android:name="com.devapp.syncapp.receiver.HotspotReceiver" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.services.ShutDownReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.services.BootReceiver" >
+            <intent-filter android:priority="100" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.testing.PrintReceiver" >
+            <intent-filter>
+                <action android:name="com.stellapps.intent.action.PRINT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.services.SendSMSBroadcast" >
+            <intent-filter android:priority="100" >
+                <action android:name="SMS_SENT" />
+                <action android:name="SMS_DELIVERED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <receiver android:name="com.stellapps.services.BootReceiver" > -->
+        <!-- <intent-filter android:priority="1000"> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <receiver
+            android:name="com.devapp.devmain.services.SmartAmcuAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+                <action android:name="android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED" />
+                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.services.DownloadManagerReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.services.NetworkReciever" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.devapp.devmain.httptasks.TaskScheduler$AlarmReceiver" />
+
+        <service android:name="com.devapp.devmain.peripherals.services.DeviceManagerService" />
+        <service android:name="com.devapp.devmain.peripherals.services.PingIntentService" />
+        <service
+            android:name="com.devapp.devmain.peripherals.services.PingService"
+            android:stopWithTask="false" />
+        <service android:name="com.devapp.devmain.services.CreateRateChartForSociety" />
+        <service android:name="com.devapp.devmain.services.SendEmail" />
+        <service android:name="com.devapp.devmain.services.LowBatteryService" />
+        <service android:name="com.devapp.devmain.services.SendDailyShiftReport" />
+        <service android:name="com.devapp.devmain.services.EnterRCEntity" />
+        <service android:name="com.devapp.devmain.server.LogInService" />
+        <service android:name="com.devapp.devmain.services.PurgeData" />
+        <service android:name="com.devapp.devmain.services.DeleteOldRecordService" />
+        <service android:name="com.devapp.devmain.services.TabAlertSwitchOffService" />
+        <service android:name="com.devapp.devmain.services.TabAlertSwitchOffDelayService" />
+        <service
+            android:name="com.devapp.devmain.services.PostEssaeCleaningDataService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.httptasks.PostCollectionRecordsService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.httptasks.RateChartPullService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.TabShutDownService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.SendSMSService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.DeleteSentSMS"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.UpdateFarmerService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.httptasks.PostFarmerRecords"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.WriteRateChartLogs"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.services.NetworkCheck"
+            android:exported="false" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="be7e6e0e0560ae1a8f6533a22e57bce5f38c2ba1" />
+
+        <activity
+            android:name="com.devapp.devmain.Connectivity.ConnectivityCheck"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.license.LicenseActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.smartcc.AllTruckActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.smartcc.UpdateTruckDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.smartcc.AllAgentActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.smartcc.AgentDetailsActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.devmain.macollection.MilkRejectActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.smartcc.EnterRejectDetails"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.smartcc.truckdetailsListActivity"
+            android:label="@string/title_truckdetails_list" />
+        <activity
+            android:name="com.devapp.smartcc.truckdetailsDetailActivity"
+            android:label="@string/title_truckdetails_detail"
+            android:parentActivityName="com.devapp.smartcc.truckdetailsListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.devapp.smartcc.truckdetailsListActivity" />
+        </activity>
+        <activity
+            android:name="com.devapp.devmain.macollection.ParallelActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.SelectFatAndSnfActivity"
+            android:label="Set parameters"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.devmain.milkline.AdvanceConfiguration"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.milkline.AllTankerList"
+            android:exported="true"
+            android:label="Tanker records"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.milkline.EnterTankerDetails"
+            android:label="Enter tanker details"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.milkline.SupervisorActivity"
+            android:label="Enter tanker details"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.milkline.DispatchSupervisorActivity"
+            android:label="Enter tanker details"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.main.AllDispatchReportsActivity"
+            android:label="All Dispatch Reports"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name="com.devapp.smartcc.service.PostTruckRecords"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.milkline.service.PostTankerRecords"
+            android:exported="false" />
+
+        <activity
+            android:name="com.devapp.devmain.helper.ShiftSummaryActivity"
+            android:label="Shift Summary"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.PortConfigurationActivity"
+            android:label="Shift Summary"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.main.DeviceSettingAlert"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.helper.DeviceDataActivity"
+            android:label="smartAmcu Terminal"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeRecycle" />
+        <activity
+            android:name="com.devapp.devmain.main.DeviceListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <service
+            android:name="com.devapp.devmain.httptasks.PostFarmerRecords"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.httptasks.ConfigurationPush"
+            android:exported="false" />
+
+        <receiver android:name="com.devapp.devmain.milkline.service.EndShiftReceiver" />
+
+        <activity
+            android:name="com.devapp.smartcc.report.MccReportActivity"
+            android:label="Detail reports"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.report.FilterMccReportActivity"
+            android:label="Filter report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.helper.TimeAlertActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.devapp.devmain.helper.LowBatteryActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- <receiver android:name="com.stellapps.broadcast.TimeChangeReceiver"> -->
+        <!-- <intent-filter android:priority="100"> -->
+        <!-- <action android:name="android.intent.action.TIME_TICK" /> -->
+        <!-- <action android:name="android.intent.action.TIME_SET" /> -->
+        <!-- <action android:name="android.intent.action.DATE_CHANGED"/> -->
+        <!-- <action android:name="android.intent.action.TIMEZONE_CHANGED"/> -->
+
+
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <receiver android:name="com.devapp.devmain.broadcast.BatteryStatusReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.devapp.devmain.milkline.EnterDispatchDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.report.MemberReportActivity"
+            android:label="Detail reports"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.report.FilterMemberReportActivity"
+            android:label="Filter report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.agentfarmersplit.AgentFarmerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.agentfarmersplit.AggregateFarmerCollection"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!-- android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" -->
+        <activity
+            android:name="com.devapp.devmain.additionalRecords.EditableRecordList"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.additionalRecords.EditCollectionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.kmfcommon.TruckEntryActivity"
+            android:label="" />
+        <activity
+            android:name="com.devapp.kmfcommon.TruckEntryReportActivity"
+            android:label="" />
+        <activity android:name="com.devapp.kmfcommon.TruckDetailCommonReport" />
+        <activity android:name="com.devapp.kmfcommon.CollectionReportSummaryGraph" />
+        <activity android:name="com.devapp.kmfcommon.AllTruckEventActivity" />
+        <activity
+            android:name="com.devapp.kmfcommon.UserSelectionActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.kmfcommon.UserMilkCollectionActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.macollection.SampleCollectionActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.macollection.CollectionActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.kmfcommon.WeightCollectionActivityV2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.kmfcommon.SettingActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.devapp.kmfcommon.PrintDuplicateActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.devapp.devmain.macollection.SalesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.devapp.kmfcommon.AllReportsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.macollection.UpdatePastRecord"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.macollection.MCCCollectionActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.devapp.devmain.user.InCentiveRateDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service
+            android:name="com.devapp.devmain.deviceinfo.PostDeviceStatusService"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.devmain.deviceinfo.GetDeviceStatusNew"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name="com.devapp.devmain.peripherals.services.DeviceManagerService" >
+        </service>
+
+        <activity
+            android:name="com.devapp.devmain.deviceinfo.DeviceInfoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.smartcc.test.TestRduActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.devapp.devmain.main.ReportsActivityV2" />
+        <activity
+            android:name="com.devapp.devmain.main.UnsentRecordsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity android:name="com.devapp.devmain.peripherals.activities.WebSocketActivity" >
+        </activity>
+
+        <service
+            android:name="com.devapp.syncapp.service.APService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.devapp.syncapp.service.BTPService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.devapp.devmain.encryption.EncryptedReportActivity"
+            android:label="Encrypted report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.devapp.devmain.main.LauncherActivity"
+            android:label="Launcher Activity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.devApp.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.devApp" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.devApp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

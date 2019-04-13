@@ -1,0 +1,9 @@
+com/stellapps/smartamcu/httptasks/BackgroundTasksMgr.class
+com/stellapps/smartamcu/httptasks/CommunicationService.class
+com/stellapps/smartamcu/httptasks/PostCollectionRecordsService.class
+com/stellapps/smartamcu/httptasks/PostFarmerRecords.class
+com/stellapps/smartamcu/httptasks/Task.class
+com/stellapps/smartamcu/httptasks/TaskScheduler.class
+com/stellapps/smartamcu/httptasks/SSLContextFactory.class
+com/stellapps/smartamcu/httptasks/SSLContextCreationException.class
+

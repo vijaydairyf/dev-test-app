@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CP2102 -->
+    <usb-device
+        product-id="60000"
+        vendor-id="4292" />
+
+    <!-- TVS printer -->
+    <usb-device
+        product-id="4353"
+        vendor-id="3701" />
+
+    <!-- FTDI Device -->
+
+    <usb-device
+        product-id="24577"
+        vendor-id="1027" />
+    <!-- CH340 device -->
+    <usb-device
+        product-id="29987"
+        vendor-id="6790" />
+    <!-- 0x067B / 0x2303: Prolific PL2303 -->
+    <usb-device
+        product-id="8963"
+        vendor-id="1659" />
+
+    <!-- 0x067B / 0x2303: Brother printer -->
+    <usb-device
+        product-id="1002"
+        vendor-id="1273" />
+
+</resources>
